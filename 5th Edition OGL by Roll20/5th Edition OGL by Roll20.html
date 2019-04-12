@@ -775,7 +775,7 @@
             <div class="row actiontitle">
                 <span class="title red" style="font-weight: normal; text-align: left;" data-i18n="spells">Spells</span>
             </div>
-            <div class="warning"><span style="color:#d06300;">THIS SECTION IS SCHEDULED TO BE REMOVED ON <u>19 APRIL 2019</u>. PLEASE TRANSFER ANY SPELLS LISTED HERE INTO THE NEW SPELLS BY LEVEL SECTION, AVAILABLE AFTER SELECTING THE 'SPELLCASTING NPC' OPTION FROM THE NPC OPTIONS ABOVE. IF THIS REMOVAL WOULD BE A HARDSHIP FOR YOU PLEASE REPLY ON THE STICKIED POST IN THE CHARACTER SHEET & COMPENDIUM FORUM</span></div>
+            <div class="warning"><span style="color:#d06300;">THIS SECTION IS DEPRECATED. PLEASE TRANSFER ANY SPELLS LISTED HERE INTO THE NEW SPELLS BY LEVEL SECTION, AVAILABLE AFTER SELECTING THE 'SPELLCASTING NPC' OPTION FROM THE NPC OPTIONS ABOVE.</span></div>
             <div class="spell-container">
                 <fieldset class="repeating_spell-npc">
                     <div class="spell">
@@ -6412,29 +6412,25 @@
         });
     });
 
-    on("change:other_resource change:other_resource_name change:repeating_resource:resource_left change:repeating_resource:resource_left_name change:repeating_resource:resource_right change:repeating_resource:resource_right_name", function(eventinfo) {
-
-        if(eventinfo.sourceType && eventinfo.sourceType === "sheetworker") {
-            return;
-        }
-
-        var resourceid = eventinfo.sourceAttribute;
-        if(eventinfo.sourceAttribute.indexOf("other") > -1) {
-            resourceid = "other_resource";
-        }
-        else if(eventinfo.sourceAttribute.substring(eventinfo.sourceAttribute.length - 5) == "_name") {
-            resourceid = eventinfo.sourceAttribute.substring(0, eventinfo.sourceAttribute.length - 5);
-        };
-
-        getAttrs([resourceid, resourceid + "_name", resourceid + "_itemid"], function(v) {
-            if(!v[resourceid + "_name"]) {
-                remove_resource(resourceid);
-            }
-            else if(v[resourceid + "_itemid"] && v[resourceid + "_itemid"] != ""){
-                update_item_from_resource(resourceid, v[resourceid + "_itemid"]);
-            };
+    ['other_resource','repeating_resource:resource_left','repeating_resource:resource_right'].forEach(attr => {
+        on(`change:${attr} change:${attr}_name`, (eventinfo) => {
+            if(eventinfo.sourceType && eventinfo.sourceType === "sheetworker") {return;}
+            const resourceid = (eventinfo.sourceAttribute.includes("_name")) ? eventinfo.sourceAttribute.slice(0, -5) : eventinfo.sourceAttribute;
+            getAttrs([`${resourceid}_itemid`], (v) => {
+                const value = eventinfo.newValue;
+                //Update repeating_inventory if an itemid is associated with a resource
+                if (v[`${resourceid}_itemid`] && v[`${resourceid}_itemid`] != "") {
+                    const itemid = v[`${resourceid}_itemid`];
+                    let update = {};
+                    if (eventinfo.sourceAttribute.includes("_name")) {
+                        update[`repeating_inventory_${itemid}_itemname`]  = eventinfo.newValue;
+                    } else {
+                        update[`repeating_inventory_${itemid}_itemcount`] = eventinfo.newValue;
+                    };
+                    setAttrs(update, {silent: true}, () => {update_weight()});
+                };
+            });
         });
-
     });
 
     on("change:repeating_inventory:itemweight change:repeating_inventory:itemcount change:cp change:sp change:ep change:gp change:pp change:encumberance_setting change:size change:carrying_capacity_mod", function() {
@@ -7696,7 +7692,7 @@
 
                         update[`${repeatingRow}_spelllevel`]               = lvl;
                         update[`${repeatingRow}_spell_ability`]            = (update["spellcasting_ability"]) ? update["spellcasting_ability"] : "spell";
-                        (spell.Name) ? update[`${repeatingRow}_spellname`] = spell.Name : false;
+                        (spell.Name) ? update[`${repeatingRow}_spellname`] = spell.Name : console.log(`%c ${JSON.stringify(page.name)} is incorrect. Update compendium data.`, "color: orange;");
                         update[`${repeatingRow}_spelloutput`]              = (page.data["Damage"] || page.data["Healing"]) ? "ATTACK" : "SPELLCARD";
 
                         ["spellclass", "spellsource", "data-description"].forEach((attr) => {
@@ -8526,14 +8522,6 @@
         });
     };
 
-    var update_item_from_resource = function(resourceid, itemid) {
-        var update = {};
-        getAttrs([resourceid, resourceid + "_name"], function(v) {
-            update["repeating_inventory_" + itemid + "_itemcount"] = v[resourceid];
-            update["repeating_inventory_" + itemid + "_itemname"] = v[resourceid + "_name"];
-            setAttrs(update, {silent: true}, function() {update_weight()});
-        });
-    };
 
     const create_attack_from_spell = function(lvl, spellid, character_id) {
         let update   = {};
@@ -8544,7 +8532,7 @@
     }
 
     const update_attack_from_spell = (lvl, spellid, attackid, newattack) => {
-        console.log(`c% Update Attack From Spell`, "color:purple");
+        console.log(`%c  Update Attack From Spell`, "color:purple");
         const repeating_spell  = `repeating_spell-${lvl}_${spellid}`;
         const repeating_attack = `repeating_attack_${attackid}`;
         getAttrs([`${repeating_spell}_spellname`, `${repeating_spell}_spellrange`, `${repeating_spell}_spelltarget`, `${repeating_spell}_spellattack`, `${repeating_spell}_spelldamage`, `${repeating_spell}_spelldamage2`,`${repeating_spell}_spelldamagetype`,`${repeating_spell}_spelldamagetype2`,`${repeating_spell}_spellhealing`,`${repeating_spell}_spelldmgmod`,`${repeating_spell}_spellsave`,`${repeating_spell}_spellsavesuccess`,`${repeating_spell}_spellhldie`,`${repeating_spell}_spellhldietype`,`${repeating_spell}_spellhlbonus`,`${repeating_spell}_spelllevel`,`${repeating_spell}_includedesc`,`${repeating_spell}_spelldescription`,`${repeating_spell}_spellathigherlevels`,`${repeating_spell}_spell_damage_progression`,`${repeating_spell}_innate`,`${repeating_spell}_spell_ability`,"spellcasting_ability"], (v) => {
