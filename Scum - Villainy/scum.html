@@ -119,7 +119,7 @@
 		<input type="number" name="attr_resbonus_resolve" value="0"> <span>의지</span>
 	</div>
 	<div class="sheet-col100 sheet-setting-character">
-		<input type="checkbox" name="attr_setting_consequence_query" class="sheet-checkbox" value="1"><span></span><span>저항 판정의 대가</span>
+		<input type="checkbox" name="attr_setting_consequence_query" class="sheet-checkbox" value="1"><span></span><span>저항 판정의 대가 문구</span>
 	</div>
 	<div class="sheet-col50 sheet-setting-ship"><input type="number" name="attr_defaultgambit" value="2"/><span>초기 묘수</span></div>
 	<div class="sheet-col50 sheet-setting-character"><input type="text" spellcheck="false" name="attr_setting_stress_label" value="스트레스"/><span>스트레스에 쓰이는 문구</span></div>
@@ -135,7 +135,7 @@
 	</div>
 	<div class="sheet-col100 sheet-version-text sheet-setting-character sheet-setting-ship sheet-setting-faction"><span>Original by Tim Denee &amp; Jakob Oesinghaus </span></div>
 	<input type="hidden" name="attr_bonusdice" value="?{보너스 주사위|0|1|2|3|4|5|6|-1|-2|-3}">
-	<input type="hidden" name="attr_consequence_query" value="a consequence">
+	<input type="hidden" name="attr_consequence_query" value="대가">
 </div>
 
 <!-- CHARACTER SHEET START-->
@@ -201,7 +201,7 @@
 					<span class="sheet-title">악습</span>
 					<span class="sheet-info">기괴 — 도박 — 망각 — 사치 — 신앙 — 의무 — 쾌락</span>
 				</div>
-				<button type="roll" name="roll_vice" class="sheet-vicebutton" value='&{template:bitd} {{charname=@{character_name}}} {{subtitle=(who currently has @{stress} stress) indulges}} {{vice=1}} {{title-vice=1}} {{roll1=[[[[{[[@{vice}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{vice}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{vice}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{vice}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{vice}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{vice}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{vice}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{vice}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{vice}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{roll10=[[[[{[[@{vice}+@{bonusdice}-9}]],1}kl1]]d6]]}} {{roll11=[[[[{[[@{vice}+@{bonusdice}-10}]],1}kl1]]d6]]}}  {{zerodice=[[[[{[[1-@{vice}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{vice}-@{bonusdice}]],1}kl1]]d6]]}}'>악습 탐닉</button>
+				<button type="roll" name="roll_vice" class="sheet-vicebutton" value='&{template:bitd} {{charname=@{character_name}}} {{subtitle=(현재 스트레스 @{stress})가 악습을 탐닉}} {{vice=1}} {{title-vice=1}} {{roll1=[[[[{[[@{vice}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{vice}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{vice}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{vice}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{vice}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{vice}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{vice}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{vice}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{vice}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{roll10=[[[[{[[@{vice}+@{bonusdice}-9}]],1}kl1]]d6]]}} {{roll11=[[[[{[[@{vice}+@{bonusdice}-10}]],1}kl1]]d6]]}}  {{zerodice=[[[[{[[1-@{vice}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{vice}-@{bonusdice}]],1}kl1]]d6]]}}'>악습 탐닉</button>
 				<input type="hidden" value="0" name="attr_vice"/>
 			</div>
 		</div>
@@ -522,7 +522,7 @@
 			<!-- Insight -->
 			<div class="sheet-attribute">
 				<div class="sheet-attribute-title sheet-flex">
-					<button class="sheet-rollbutton sheet-attributebutton" type="roll" name="roll_Insight" value="&{template:bitd} {{charname=@{character_name}}} {{resist=1}} {{subtitle=resists @{consequence_query} with}} {{title-insight=1}} {{roll1=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{roll10=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-9}]],1}kl1]]d6]]}} {{roll11=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-10}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-(@{insight}+@{resbonus_insight})-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-(@{insight}+@{resbonus_insight})-@{bonusdice}]],1}kl1]]d6]]}}">통찰
+					<button class="sheet-rollbutton sheet-attributebutton" type="roll" name="roll_Insight" value="&{template:bitd} {{charname=@{character_name}}} {{resist=1}} {{subtitle=@{consequence_query}에 저항}} {{title-insight=1}} {{roll1=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{roll10=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-9}]],1}kl1]]d6]]}} {{roll11=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-10}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-(@{insight}+@{resbonus_insight})-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-(@{insight}+@{resbonus_insight})-@{bonusdice}]],1}kl1]]d6]]}}">통찰
 					</button>
 					<input type="hidden" name="attr_insight" value="0"/>
 					<input type="hidden" name="attr_insight_xp_max" value="6"/>
@@ -575,7 +575,7 @@
 			<!-- Prowess -->
 			<div class="sheet-attribute">
 				<div class="sheet-attribute-title sheet-flex">
-					<button class="sheet-rollbutton sheet-attributebutton" type="roll" name="roll_Prowess" value="&{template:bitd} {{charname=@{character_name}}} {{resist=1}} {{subtitle=resists @{consequence_query} with}} {{title-prowess=1}} {{roll1=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{roll10=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-9}]],1}kl1]]d6]]}} {{roll11=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-10}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-(@{prowess}+@{resbonus_prowess})-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-(@{prowess}+@{resbonus_prowess})-@{bonusdice}]],1}kl1]]d6]]}}">체력
+					<button class="sheet-rollbutton sheet-attributebutton" type="roll" name="roll_Prowess" value="&{template:bitd} {{charname=@{character_name}}} {{resist=1}} {{subtitle=@{consequence_query}에 저항}} {{title-prowess=1}} {{roll1=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{roll10=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-9}]],1}kl1]]d6]]}} {{roll11=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-10}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-(@{prowess}+@{resbonus_prowess})-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-(@{prowess}+@{resbonus_prowess})-@{bonusdice}]],1}kl1]]d6]]}}">체력
 					</button>
 					<input type="hidden" name="attr_prowess" value="0"/>
 					<input type="hidden" name="attr_prowess_xp_max" value="6"/>
@@ -628,7 +628,7 @@
 			<!-- Resolve -->
 			<div class="sheet-attribute">
 				<div class="sheet-attribute-title sheet-flex">
-					<button class="sheet-rollbutton sheet-attributebutton" type="roll" name="roll_Resolve" value="&{template:bitd} {{charname=@{character_name}}} {{resist=1}} {{subtitle=resists @{consequence_query} with}} {{title-resolve=1}} {{roll1=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{roll10=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-9}]],1}kl1]]d6]]}} {{roll11=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-10}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-(@{resolve}+@{resbonus_resolve})-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-(@{resolve}+@{resbonus_resolve})-@{bonusdice}]],1}kl1]]d6]]}}">의지
+					<button class="sheet-rollbutton sheet-attributebutton" type="roll" name="roll_Resolve" value="&{template:bitd} {{charname=@{character_name}}} {{resist=1}} {{subtitle=@{consequence_query}에 저항}} {{title-resolve=1}} {{roll1=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{roll10=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-9}]],1}kl1]]d6]]}} {{roll11=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-10}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-(@{resolve}+@{resbonus_resolve})-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-(@{resolve}+@{resbonus_resolve})-@{bonusdice}]],1}kl1]]d6]]}}">의지
 					</button>
 					<input type="hidden" name="attr_resolve" value="0"/>
 					<input type="hidden" name="attr_resolve_xp_max" value="6"/>
@@ -763,7 +763,7 @@
 			<div class="sheet-ship-toprow sheet-flex">
 				<div class="sheet-col18 sheet-ship-crew">
 					<div class="sheet-col100 sheet-blackheader sheet-flex">
-						<button type="roll" name="roll_crew" class="sheet-rollbutton sheet-crewbutton" value='&{template:bitd} {{charname=@{character_name}}} {{resist=1}} {{short=1}} {{title-crew=1}} {{subtitle=roll their}} {{roll1=[[[[{[[@{crew_quality}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{crew_quality}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{crew_quality}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{crew_quality}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{crew_quality}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{crew_quality}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{crew_quality}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{crew_quality}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{crew_quality}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{crew_quality}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{crew_quality}-@{bonusdice}]],1}kl1]]d6]]}}'>일행</button>
+						<button type="roll" name="roll_crew" class="sheet-rollbutton sheet-crewbutton" value='&{template:bitd} {{charname=@{character_name}}} {{resist=1}} {{short=1}} {{title-crew=1}} {{subtitle=rolls}} {{roll1=[[[[{[[@{crew_quality}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{crew_quality}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{crew_quality}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{crew_quality}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{crew_quality}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{crew_quality}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{crew_quality}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{crew_quality}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{crew_quality}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{crew_quality}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{crew_quality}-@{bonusdice}]],1}kl1]]d6]]}}'>일행</button>
 						<input type="radio" class="sheet-tooth sheet-zero" value="0" name="attr_crew_quality"/><span></span><input type="radio" class="sheet-tooth sheet-xptooth" value="1" name="attr_crew_quality"/><span></span><input type="radio" class="sheet-tooth sheet-xptooth" value="2" name="attr_crew_quality"/><span></span><input type="radio" class="sheet-tooth sheet-xptooth" value="3" name="attr_crew_quality"/><span></span>
 					</div>
 				</div>
@@ -1289,11 +1289,11 @@
 		<!-- End legacy section -->
 		{{#rollGreater() zerodice 0}}
 			<div class="sheet-zerodice1">{{zerodice}}</div>
-			<div class="sheet-zerodice2">Zero Dice — take the lowest result above</div>
+			<div class="sheet-zerodice2">주사위 0개 — 위 결과에서 가장 낮은 눈을 고르세요.</div>
 		{{/rollGreater() zerodice 0}}
 	</div>
-	{{#position}}<div class="sheet-roll-position">{{position}}</div>{{/position}}{{#effect}}<div class="sheet-roll-effect">{{effect}}</div>{{/effect}}{{#resist}}{{^short}}<div class="sheet-roll-instructions">Suffer <em>6 stress minus the highest die result.</em> When you roll a critical on resistance, clear 1 stress.</div>{{/short}}{{/resist}}{{#vice}}{{^short}}
-	<div class="sheet-roll-instructions"><em>Clear an amount of stress equal to the highest die result.</em> If the result of your vice roll means you clear more stress levels than you had marked, you <em>overindulge</em>.</div>
+	{{#position}}<div class="sheet-roll-position">{{position}}</div>{{/position}}{{#effect}}<div class="sheet-roll-effect">{{effect}}</div>{{/effect}}{{#resist}}{{^short}}<div class="sheet-roll-instructions"><em>(6 - 결과값)</em>만큼의 스트레스를 받으세요. 대성공이 나왔다면 스트레스를 1 지우세요.</div>{{/short}}{{/resist}}{{#vice}}{{^short}}
+	<div class="sheet-roll-instructions"><em>가장 높은 주사위 눈만큼 스트레스를 제거하세요.</em> 만약 현재 가진 스트레스보다 높게 나왔다면 <em>과잉탐닉</em>을 합니다.</div>
 	{{/short}}{{/vice}}{{#notes}}
 	<div class="sheet-roll-notes">{{notes}}</div>{{/notes}}
 </div>
