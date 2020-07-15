@@ -113,7 +113,7 @@ input[type=checkbox] + span, input[type=radio] + span {
 	height: 1px;
 }
 .sheet-tab {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/background.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/background.png");
 	padding: 5px 10px 15px;
 	display: flex;
 	align-items: flex-start;
@@ -759,130 +759,130 @@ input[value="12"]:checked ~ .sheet-12clock,
 }
 /* RECOVERY CLOCK*/
 .sheet-recoveryclock input[value="0"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clockheal-0.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clockheal-0.png");
 }
 .sheet-recoveryclock input[value="1"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clockheal-1.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clockheal-1.png");
 }
 .sheet-recoveryclock input[value="2"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clockheal-2.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clockheal-2.png");
 }
 .sheet-recoveryclock input[value="3"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clockheal-3.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clockheal-3.png");
 }
 .sheet-recoveryclock input[value="4"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clockheal-4.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clockheal-4.png");
 }
 .sheet-recoveryclock input[value="5"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clockheal-5.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clockheal-5.png");
 }
 .sheet-recoveryclock input[value="6"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clockheal-6.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clockheal-6.png");
 	background-repeat: no-repeat !important;
 }
 
 /* PROGRESS CLOCKS */
 .sheet-8clock input[value="0"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock8-0.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock8-0.png");
 }
 .sheet-8clock input[value="1"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock8-1.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock8-1.png");
 }
 .sheet-8clock input[value="2"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock8-2.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock8-2.png");
 }
 .sheet-8clock input[value="3"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock8-3.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock8-3.png");
 }
 .sheet-8clock input[value="4"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock8-4.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock8-4.png");
 }
 .sheet-8clock input[value="5"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock8-5.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock8-5.png");
 }
 .sheet-8clock input[value="6"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock8-6.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock8-6.png");
 }
 .sheet-8clock input[value="7"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock8-7.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock8-7.png");
 }
 .sheet-8clock input[value="8"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock8-8.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock8-8.png");
 }
 .sheet-4clock input[value="0"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock4-0.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock4-0.png");
 }
 .sheet-4clock input[value="1"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock4-1.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock4-1.png");
 }
 .sheet-4clock input[value="2"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock4-2.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock4-2.png");
 }
 .sheet-4clock input[value="3"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock4-3.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock4-3.png");
 }
 .sheet-4clock input[value="4"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock4-4.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock4-4.png");
 }
 .sheet-6clock input[value="0"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock6-0.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock6-0.png");
 }
 .sheet-6clock input[value="1"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock6-1.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock6-1.png");
 }
 .sheet-6clock input[value="2"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock6-2.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock6-2.png");
 }
 .sheet-6clock input[value="3"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock6-3.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock6-3.png");
 }
 .sheet-6clock input[value="4"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock6-4.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock6-4.png");
 }
 .sheet-6clock input[value="5"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock6-5.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock6-5.png");
 }
 .sheet-6clock input[value="6"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock6-6.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock6-6.png");
 }
 .sheet-12clock input[value="0"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock12-0.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock12-0.png");
 }
 .sheet-12clock input[value="1"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock12-1.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock12-1.png");
 }
 .sheet-12clock input[value="2"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock12-2.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock12-2.png");
 }
 .sheet-12clock input[value="3"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock12-3.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock12-3.png");
 }
 .sheet-12clock input[value="4"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock12-4.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock12-4.png");
 }
 .sheet-12clock input[value="5"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock12-5.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock12-5.png");
 }
 .sheet-12clock input[value="6"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock12-6.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock12-6.png");
 }
 .sheet-12clock input[value="7"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock12-7.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock12-7.png");
 }
 .sheet-12clock input[value="8"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock12-8.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock12-8.png");
 }
 .sheet-12clock input[value="9"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock12-9.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock12-9.png");
 }
 .sheet-12clock input[value="10"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock12-10.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock12-10.png");
 }
 .sheet-12clock input[value="11"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock12-11.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock12-11.png");
 }
 .sheet-12clock input[value="12"]:checked ~ .sheet-clockpicture {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/clocks/clock12-12.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/clocks/clock12-12.png");
 }
 
 .sheet-clockprogress {
@@ -1865,7 +1865,7 @@ input.sheet-expand:not(:checked) ~ textarea {
 	height: 258px;
 }
 .sheet-rolltemplate-bitd .sheet-roll-fortune {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/rolltemplate/bg-fortune.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/rolltemplate/bg-fortune.png");
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	background-color: white;
@@ -1875,13 +1875,13 @@ input.sheet-expand:not(:checked) ~ textarea {
 
 /* Background images */
 .sheet-rolltemplate-bitd .sheet-roll-action {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/rolltemplate/bg-action.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/rolltemplate/bg-action.png");
 }
 .sheet-rolltemplate-bitd .sheet-roll-resist {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/rolltemplate/bg-resist.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/rolltemplate/bg-resist.png");
 }
 .sheet-rolltemplate-bitd .sheet-roll-vice {
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/rolltemplate/bg-vice.png");
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/rolltemplate/bg-vice.png");
 }
 
 /* Images */
