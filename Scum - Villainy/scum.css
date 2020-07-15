@@ -543,8 +543,8 @@ textarea.sheet-label {
 
 /* LOGO */
 .sheet-scumlogo {
-	height: 50px;
-	background-image: url("https://raw.githubusercontent.com/roll20/roll20-character-sheets/master/Scum%20-%20Villainy/Assets/logo.png");
+	height: 92px;
+	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/logo.png");
 	background-size: 95% auto;
 	background-repeat: no-repeat;
 }
