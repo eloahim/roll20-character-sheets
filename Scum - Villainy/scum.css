@@ -5,12 +5,14 @@ e34a3a soft red
 #81ebfb light blue
 */
 
+@import url('https://fonts.googleapis.com/css?family=Gaegu&family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Myeongjo&family=Noto+Serif+KR:wght@400;700&display=swap');
+
 /* GENERALITIES */
 .charsheet {
 	box-sizing: border-box;
 	position: absolute;
 	padding: 0 10px 0 0 !important;
-	font-family: "Helvetica Neue", Helvetica, "Trebuchet MS", Arial, sans-serif;
+	font-family: 'Nanum Gothic Coding', 'Noto Serif KR', "Helvetica Neue", Helvetica, "Trebuchet MS", Arial, sans-serif;
 	font-size: 13px;
 	left: 0;
 	margin-top: -11px;
@@ -253,8 +255,9 @@ input.sheet-type-selector[value="faction"]:checked ~ span::before {
 }
 /* USEFUL GENERAL LAYOUT*/
 .sheet-blackheader {
-	font-size: .8em;
-	font-weight: 600;
+	font-size: 0.8em;
+	font-weight: 400;
+	font-family: 'Nanum Gothic Coding', monospace;
 	height: 16px;
 	letter-spacing: 1px;
 	line-height: 16px;
@@ -392,14 +395,12 @@ input.sheet-type-selector[value="faction"]:checked ~ span::before {
 .sheet-label,
 input.sheet-label,
 textarea.sheet-label {
-	text-transform: uppercase;
 }
 .sheet-smallcaps {
-	text-transform: uppercase;
-	font-weight: 800;
+	font-weight: 700;
 }
 .sheet-bold {
-	font-weight: 800;
+	font-weight: 700;
 }
 .sheet-italic {
 	font-style: italic;
@@ -487,7 +488,7 @@ textarea.sheet-label {
 }
 .sheet-item span.sheet-label {
 	font-weight: bold;
-	font-size: .8em;
+	font-size: 1.1em;
 	letter-spacing: 1px;
 }
 .sheet-item.sheet-upgradecaption {
@@ -555,10 +556,10 @@ textarea.sheet-label {
 	line-height: 20px;
 	justify-content: space-between;
 	padding: 0 5px;
-	font-size: .75em;
+	font-size: .8em;
 }
 .sheet-loadheader .sheet-label {
-	font-weight: 800;
+	font-weight: 700;
 	letter-spacing: 1px;
 }
 .sheet-load {
@@ -647,18 +648,20 @@ input.sheet-playbook-title {
 	height: 50px;
 	width: 58%;
 	margin-right: 2%;
+	font-family: 'Gaegu', 'Nanum Myeongjo', serif;
 	font-size: 2.7em;
 	color: #81ebfb;
 	text-shadow: 0 0 2px white;
 	padding: 0 0 0 5px;
-	font-weight: 200;
+	font-weight: 400;
 }
 .sheet-playbook-desc {
 	height: 50px;
 	width: 40%;
 	padding-top: 5px;
-	font-size: .8em;
-	font-weight: 800;
+	font-family: 'Gaegu', 'Nanum Myeongjo', serif;
+	font-size: .9em;
+	font-weight: 400;
 	letter-spacing: 1px;
 	color: #81ebfb;
 	text-shadow: 0 0 2px white;
@@ -674,6 +677,7 @@ input.sheet-playbook-title {
 	z-index: 3;
 	border-radius: 5px;
 	width: 267px;
+	font-family: 'Nanum Gothic Coding', monospace;
 	font-size: .9em;
 	line-height: 1.4;
 	text-align: center;
@@ -706,10 +710,12 @@ input.sheet-playbook-title {
 }
 .sheet-header .sheet-text {
 	text-align: justify;
-	font-size: .7em;
+	font-size: .9em;
 }
 .sheet-header .sheet-title {
+	font-family: 'Noto Serif KR', serif;
 	font-weight: bold;
+	font-size: 1.1em;
 	letter-spacing: 1px;
 }
 
@@ -894,17 +900,19 @@ input[value="12"]:checked ~ .sheet-12clock,
 	margin: 4px 0;
 }
 .sheet-recovery .sheet-bold {
-	font-size: .9em;
+	font-size: 1.1em;
 	letter-spacing: 1px;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 700;
 	padding-right: 3px;
 }
 
 /* TEXT INPUTS FOR TRAUMA AND CLOCKS */
 .sheet-text-button {
+	font-family: 'Nanum Gothic Coding', monospace;
 	text-transform: uppercase;
 	font-weight: bold;
+	font-size: 1.1em
 	line-height: inherit;
 	cursor: pointer;
 }

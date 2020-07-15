@@ -78,27 +78,27 @@
 <div class="sheet-settings sheet-flex-wrap">
 	<div class="sheet-col100 sheet-setting-character">
 		<select name="attr_generate_source_character" title="Choose source">
-			<option value="mechanic" selected>Mechanic</option>
-			<option value="muscle">Muscle</option>
-			<option value="mystic">Mystic</option>
-			<option value="pilot">Pilot</option>
-			<option value="scoundrel">Scoundrel</option>
-			<option value="speaker">Speaker</option>
-			<option value="stitch">Stitch</option>
+			<option value="기술자" selected>기술자</option>
+			<option value="닥터">닥터</option>
+			<option value="무뢰한">무뢰한</option>
+			<option value="싸움꾼">싸움꾼</option>
+			<option value="얼굴">얼굴</option>
+			<option value="조화사">조화사</option>
+			<option value="파일럿">파일럿</option>
 		</select>
-		<label class="sheet-generatebutton"><input type="checkbox" name="attr_generate_ability"/><span>Add abilities</span></label>
-		<label class="sheet-generatebutton"><input type="checkbox" name="attr_generate_friend"/><span>Add friends/contacts</span></label>
-		<label class="sheet-generatebutton"><input type="checkbox" name="attr_generate_playbookitem"/><span>Add items</span></label>
+		<label class="sheet-generatebutton"><input type="checkbox" name="attr_generate_ability"/><span>능력 추가</span></label>
+		<label class="sheet-generatebutton"><input type="checkbox" name="attr_generate_friend"/><span>친구 추가</span></label>
+		<label class="sheet-generatebutton"><input type="checkbox" name="attr_generate_playbookitem"/><span>물품 추가</span></label>
 	</div>
 	<div class="sheet-col100 sheet-setting-ship">
 		<select name="attr_generate_source_ship" title="Choose source">
-			<option value="stardancer" selected>Stardancer</option>
-			<option value="cerberus">Cerberus</option>
-			<option value="firedrake">Firedrake</option>
+			<option value="스타댄서" selected>스타댄서</option>
+			<option value="케르베로스">케르베로스</option>
+			<option value="파이어드레이크">파이어드레이크</option>
 		</select>
-		<label class="sheet-generatebutton"><input type="checkbox" name="attr_generate_crewability"/><span>Add abilities</span></label>
-		<label class="sheet-generatebutton"><input type="checkbox" name="attr_generate_contact"/><span>Add contacts</span></label>
-		<label class="sheet-generatebutton"><input type="checkbox" name="attr_generate_upgrade"/><span>Add upgrades</span></label>
+		<label class="sheet-generatebutton"><input type="checkbox" name="attr_generate_crewability"/><span>능력 추가</span></label>
+		<label class="sheet-generatebutton"><input type="checkbox" name="attr_generate_contact"/><span>연줄 추가</span></label>
+		<label class="sheet-generatebutton"><input type="checkbox" name="attr_generate_upgrade"/><span>업그레이드 추가</span></label>
 	</div>
 	<div class="sheet-col100 sheet-setting-character">
 		<select name="attr_setting_extra_stress">
@@ -107,31 +107,31 @@
 			<option value="2">11</option>
 			<option value="3">12</option>
 		</select>
-		<span>Number of stress boxes</span></div>
-	<div class="sheet-col50 sheet-setting-character"><input type="checkbox" name="attr_setting_extra_trauma" value="1" class="sheet-checkbox"/><span></span><span>Show an extra trauma box</span></div>
-	<div class="sheet-col50 sheet-setting-character sheet-setting-ship"><input type="checkbox" name="attr_setting_extra_xp" value="1" class="sheet-checkbox"/><span></span><span>Show an extra xp condition</span></div>
-	<div class="sheet-col100 sheet-setting-character"><input type="checkbox" class="sheet-checkbox" name="attr_setting_showitem_0" value="1"/><span></span><span>Show special item with optional second box</span></div>
-	<div class="sheet-col100 sheet-setting-character"><input type="checkbox" class="sheet-checkbox" name="attr_setting_specialarmor2" value="1"/><span></span><span>Show another special armor checkbox</span></div>
+		<span>스트레스 칸 수</span></div>
+	<div class="sheet-col50 sheet-setting-character"><input type="checkbox" name="attr_setting_extra_trauma" value="1" class="sheet-checkbox"/><span></span><span>추가 트라우마 칸 표시</span></div>
+	<div class="sheet-col50 sheet-setting-character sheet-setting-ship"><input type="checkbox" name="attr_setting_extra_xp" value="1" class="sheet-checkbox"/><span></span><span>추가 XP 조건 표시</span></div>
+	<div class="sheet-col100 sheet-setting-character"><input type="checkbox" class="sheet-checkbox" name="attr_setting_showitem_0" value="1"/><span></span><span>두번째 칸을 가진 특수 물품 표시</span></div>
+	<div class="sheet-col100 sheet-setting-character"><input type="checkbox" class="sheet-checkbox" name="attr_setting_specialarmor2" value="1"/><span></span><span>추가 특수 갑옷 칸 표시</span></div>
 	<div class="sheet-col100 sheet-settings-load sheet-setting-character">
-		<span>Resistance bonus:</span>
-		<input type="number" name="attr_resbonus_insight" value="0"> <span>Insight</span>
-		<input type="number" name="attr_resbonus_prowess" value="0"> <span>Prowess</span>
-		<input type="number" name="attr_resbonus_resolve" value="0"> <span>Resolve</span>
+		<span>저항 보너스:</span>
+		<input type="number" name="attr_resbonus_insight" value="0"> <span>통찰</span>
+		<input type="number" name="attr_resbonus_prowess" value="0"> <span>체력</span>
+		<input type="number" name="attr_resbonus_resolve" value="0"> <span>의지</span>
 	</div>
 	<div class="sheet-col100 sheet-setting-character">
-		<input type="checkbox" name="attr_setting_consequence_query" class="sheet-checkbox" value="1"><span></span><span>Query for consequence name when resisting</span>
+		<input type="checkbox" name="attr_setting_consequence_query" class="sheet-checkbox" value="1"><span></span><span>저항 판정의 대가</span>
 	</div>
-	<div class="sheet-col50 sheet-setting-ship"><input type="number" name="attr_defaultgambit" value="2"/><span>number of Starting Gambits</span></div>
-	<div class="sheet-col50 sheet-setting-character"><input type="text" spellcheck="false" name="attr_setting_stress_label" value="stress"/><span>Label to use for Stress</span></div>
-	<div class="sheet-col50 sheet-setting-character"><input type="text" spellcheck="false" name="attr_setting_trauma_label" value="trauma"/><span>Label to use for Trauma</span></div>
+	<div class="sheet-col50 sheet-setting-ship"><input type="number" name="attr_defaultgambit" value="2"/><span>초기 묘수</span></div>
+	<div class="sheet-col50 sheet-setting-character"><input type="text" spellcheck="false" name="attr_setting_stress_label" value="스트레스"/><span>스트레스에 쓰이는 문구</span></div>
+	<div class="sheet-col50 sheet-setting-character"><input type="text" spellcheck="false" name="attr_setting_trauma_label" value="트라우마"/><span>트라우마에 쓰이는 문구</span></div>
 	<div class="sheet-settings-load sheet-col100 sheet-setting-character">
-		<span>Load: </span>
-		<input type="number" name="attr_setting_load_l" value="3"/> <span>light</span>
-		<input type="number" name="attr_setting_load_n" value="5"/> <span>normal</span>
-		<input type="number" name="attr_setting_load_h" value="6"/> <span>heavy</span>
+		<span>하중: </span>
+		<input type="number" name="attr_setting_load_l" value="3"/> <span>가벼움</span>
+		<input type="number" name="attr_setting_load_n" value="5"/> <span>보통</span>
+		<input type="number" name="attr_setting_load_h" value="6"/> <span>무거움</span>
 	</div>
 	<div class="sheet-col100 sheet-setting-character sheet-setting-ship sheet-setting-faction">
-		<input type="checkbox" name="attr_setting_flexwidth" class="sheet-checkbox" value="1"><span></span><span>Flexible sheet width (adapts to container)</span>
+		<input type="checkbox" name="attr_setting_flexwidth" class="sheet-checkbox" value="1"><span></span><span>가변 시트 너비 (컨테이너에 맞춤)</span>
 	</div>
 	<div class="sheet-col100 sheet-version-text sheet-setting-character sheet-setting-ship sheet-setting-faction"><span>Original by Tim Denee &amp; Jakob Oesinghaus </span></div>
 	<input type="hidden" name="attr_bonusdice" value="?{Bonus dice|0|1|2|3|4|5|6|-1|-2|-3}">
@@ -144,30 +144,30 @@
 		<div class="sheet-col55 sheet-scumlogo"></div>
 		<div class="sheet-col45 sheet-header">
 			<input type="text" spellcheck="false" name="attr_crew"/>
-				<div class="sheet-text sheet-label sheet-title">Crew</div>
+				<div class="sheet-text sheet-label sheet-title">일행</div>
 		</div>
 	</div>
 	<div class="sheet-playbook sheet-flex-layout">
-		<input type="text" spellcheck="false" name="attr_playbook" class="sheet-playbook-title sheet-label" placeholder="playbook"/>
-		<textarea spellcheck="false" name="attr_playbook_description" class="sheet-playbook-desc sheet-label" placeholder="A short playbook description"></textarea>
+		<input type="text" spellcheck="false" name="attr_playbook" class="sheet-playbook-title sheet-label" placeholder="플레이북"/>
+		<textarea spellcheck="false" name="attr_playbook_description" class="sheet-playbook-desc sheet-label" placeholder="짧은 플레이북 소개"></textarea>
 		<input type="checkbox" name="attr_show_playbook_reminder" class="sheet-hidden sheet-hidediv" value="1" checked>
 		<div class="sheet-reminder">
-			To generate playbook abilities, items, and friends, enter the name of the playbook above: Mechanic, Muscle, Mystic, Pilot, Scoundrel, Speaker, or Stitch.
+			능력, 물품, 친구를 불러오려면 위 칸에 플레이북 이름을 입력하세요: 기술자, 싸움꾼, 조화사, 파일럿, 무뢰한, 얼굴, 닥터.
 		</div>
 	</div>
 	<div class="sheet-col55">
 		<div class="sheet-flex sheet-header">
 			<div class="sheet-col55">
 				<input type="text" spellcheck="false" name="attr_name"/>
-				<div class="sheet-text sheet-label sheet-title">Name</div>
+				<div class="sheet-text sheet-label sheet-title">이름</div>
 			</div>
 			<div class="sheet-col45">
 				<input type="text" spellcheck="false" name="attr_alias"/>
-				<div class="sheet-text sheet-label sheet-title">Alias</div>
+				<div class="sheet-text sheet-label sheet-title">가명</div>
 			</div>
 			<div class="sheet-col100">
 				<input type="text" spellcheck="false" name="attr_look"/>
-				<div class="sheet-text sheet-label sheet-title">Look</div>
+				<div class="sheet-text sheet-label sheet-title">외모</div>
 			</div>
 			<div class="sheet-col55">
 				<div class="sheet-auto-expand">
@@ -176,8 +176,8 @@
 				</div>
 				<input type="hidden" name="attr_heritage" value="">
 				<div class="sheet-text sheet-label">
-					<span class="sheet-title">Heritage</span>
-					<span class="sheet-info">Imperial — Spacer — Colonist — Manufactured — Wanderer — Xeno</span>
+					<span class="sheet-title">혈통</span>
+					<span class="sheet-info">헤게모니 — 우주인 — 개척민 — 인조인 — 유랑민 — 제노</span>
 				</div>
 			</div>
 			<div class="sheet-col45">
@@ -187,8 +187,8 @@
 				</div>
 				<input type="hidden" name="attr_background" value="">
 				<div class="sheet-text sheet-label">
-					<span class="sheet-title">Background</span>
-					<span class="sheet-info">Academic — Labor — Cult — Guilder — Military — Noble — Syndicate</span>
+					<span class="sheet-title">출신</span>
+					<span class="sheet-info">교단 — 군대 — 귀족 — 길드 — 노동 — 신디케이트 — 학계</span>
 				</div>
 			</div>
 			<div class="sheet-col100 sheet-flex-wrap">
@@ -198,10 +198,10 @@
 				</div>
 				<input type="hidden" name="attr_vice_purveyor" value="">
 				<div class="sheet-text sheet-label">
-					<span class="sheet-title">Vice / Purveyor</span>
-					<span class="sheet-info">Faith — Gambling — Luxury — Obligation — Pleasure — Stupor — Weird</span>
+					<span class="sheet-title">악습</span>
+					<span class="sheet-info">기괴 — 도박 — 망각 — 사치 — 신앙 — 의무 — 쾌락</span>
 				</div>
-				<button type="roll" name="roll_vice" class="sheet-vicebutton" value='&{template:bitd} {{charname=@{character_name}}} {{subtitle=(who currently has @{stress} stress) indulges}} {{vice=1}} {{title-vice=1}} {{roll1=[[[[{[[@{vice}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{vice}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{vice}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{vice}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{vice}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{vice}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{vice}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{vice}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{vice}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{roll10=[[[[{[[@{vice}+@{bonusdice}-9}]],1}kl1]]d6]]}} {{roll11=[[[[{[[@{vice}+@{bonusdice}-10}]],1}kl1]]d6]]}}  {{zerodice=[[[[{[[1-@{vice}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{vice}-@{bonusdice}]],1}kl1]]d6]]}}'>Indulge Vice</button>
+				<button type="roll" name="roll_vice" class="sheet-vicebutton" value='&{template:bitd} {{charname=@{character_name}}} {{subtitle=(who currently has @{stress} stress) indulges}} {{vice=1}} {{title-vice=1}} {{roll1=[[[[{[[@{vice}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{vice}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{vice}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{vice}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{vice}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{vice}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{vice}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{vice}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{vice}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{roll10=[[[[{[[@{vice}+@{bonusdice}-9}]],1}kl1]]d6]]}} {{roll11=[[[[{[[@{vice}+@{bonusdice}-10}]],1}kl1]]d6]]}}  {{zerodice=[[[[{[[1-@{vice}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{vice}-@{bonusdice}]],1}kl1]]d6]]}}'>악습 탐닉</button>
 				<input type="hidden" value="0" name="attr_vice"/>
 			</div>
 		</div>
@@ -227,36 +227,36 @@
 			<div class="sheet-traumata sheet-stress4 sheet-blackborder">
 				<div class="sheet-flex">
 					<label class="sheet-text-button">
-						<input type="checkbox" name="attr_trauma_cold" value="1"><span>Cold</span>
+						<input type="checkbox" name="attr_trauma_cold" value="1"><span>냉혹</span>
 					</label>
 					<span>—</span>
 					<label class="sheet-text-button">
-						<input type="checkbox" name="attr_trauma_haunted" value="1"><span>Haunted</span>
+						<input type="checkbox" name="attr_trauma_reckless" value="1"><span>무모</span>
 					</label>
 					<span>—</span>
 					<label class="sheet-text-button">
-						<input type="checkbox" name="attr_trauma_obsessed" value="1"><span>Obsessed</span>
+						<input type="checkbox" name="attr_trauma_unstable" value="1"><span>불안</span>
 					</label>
 					<span>—</span>
 					<label class="sheet-text-button">
-						<input type="checkbox" name="attr_trauma_paranoid" value="1"><span>Paranoid</span>
+						<input type="checkbox" name="attr_trauma_vicious" value="1"><span>악랄</span>
 					</label>
 				</div>
 				<div class="sheet-flex">
 					<label class="sheet-text-button">
-						<input type="checkbox" name="attr_trauma_reckless" value="1"><span>Reckless</span>
+						<input type="checkbox" name="attr_trauma_soft" value="1"><span>연약</span>
 					</label>
 					<span>—</span>
 					<label class="sheet-text-button">
-						<input type="checkbox" name="attr_trauma_soft" value="1"><span>Soft</span>
+						<input type="checkbox" name="attr_trauma_obsessed" value="1"><span>집착</span>
 					</label>
 					<span>—</span>
 					<label class="sheet-text-button">
-						<input type="checkbox" name="attr_trauma_unstable" value="1"><span>Unstable</span>
+						<input type="checkbox" name="attr_trauma_paranoid" value="1"><span>피해망상</span>
 					</label>
 					<span>—</span>
 					<label class="sheet-text-button">
-						<input type="checkbox" name="attr_trauma_vicious" value="1"><span>Vicious</span>
+						<input type="checkbox" name="attr_trauma_haunted" value="1"><span>환각</span>
 					</label>
 				</div>
 			</div>
@@ -264,11 +264,11 @@
 		<div class="sheet-flex-layout sheet-def-margin">
 			<!-- HARM -->
 			<div class="sheet-col68 sheet-harm">
-				<div class="sheet-blackheader sheet-label">Harm</div>
+				<div class="sheet-blackheader sheet-label">피해</div>
 				<div class="sheet-harmbody">
 					<div class="sheet-number sheet-flex-centerall">3</div>
 					<textarea spellcheck="false" class="sheet-2cols" name="attr_harm3"></textarea>
-					<div class="sheet-label sheet-flex-centerall">Need Help</div>
+					<div class="sheet-label sheet-flex-centerall">도움 필요</div>
 					<div class="sheet-number sheet-flex-centerall">2</div>
 					<textarea spellcheck="false" name="attr_harm2_1"></textarea>
 					<textarea spellcheck="false" name="attr_harm2_2"></textarea>
@@ -276,13 +276,13 @@
 					<div class="sheet-number sheet-flex-centerall">1</div>
 					<textarea spellcheck="false" name="attr_harm1_1"></textarea>
 					<textarea spellcheck="false" name="attr_harm1_2"></textarea>
-					<div class="sheet-label sheet-flex-centerall">Less Effect</div>
+					<div class="sheet-label sheet-flex-centerall">효과 감소</div>
 				</div>
 				<!-- RECOVERY -->
 				<div class="sheet-recovery">
-					<span class="sheet-bold sheet-label">Recovery</span> <span>When you recover in downtime, clear all <strong>level 1 harm</strong> and advance your <strong>healing clock</strong> ►</span><br/>
+					<span class="sheet-bold sheet-label">회복</span> <span>막간에 치료를 받아 <strong>1단계 피해</strong>를 모두 제거하고 <strong>치유 시계</strong>를 채울 수 있습니다. ►</span><br/>
 					<div class="sheet-clockprogress sheet-recoveryclock">
-						<span class="sheet-bold sheet-label">Progress</span>
+						<span class="sheet-bold sheet-label">진척</span>
 						<input type="radio" name="attr_recovery" class="sheet-text-input" value="0" checked/><span>0</span>
 						<input type="radio" name="attr_recovery" class="sheet-text-input" value="1"/><span>1</span>
 						<input type="radio" name="attr_recovery" class="sheet-text-input" value="2"/><span>2</span>
@@ -299,26 +299,26 @@
 				<!-- ARMOR -->
 				<div class="sheet-armor">
 					<label class="sheet-armor-title sheet-flex">
-						<div class="sheet-label">Armor</div>
+						<div class="sheet-label">갑옷</div>
 						<div><input type="checkbox" value="1" name="attr_armor" class="sheet-tooth sheet-checktooth"/><span></span></div>
 					</label>
 					<label class="sheet-armor-title sheet-flex">
-						<div class="sheet-label">Heavy</div>
+						<div class="sheet-label">중갑</div>
 						<div><input type="checkbox" value="1" name="attr_armor_heavy" class="sheet-tooth sheet-checktooth"/><span></span></div>
 					</label>
 					<label class="sheet-armor-title sheet-flex">
-						<div class="sheet-label">Special</div>
+						<div class="sheet-label">특수</div>
 						<div><input type="checkbox" value="1" name="attr_armor_special" class="sheet-tooth sheet-checktooth"/><span></span><input type="checkbox" class="sheet-hidden sheet-toothhider" name="attr_setting_specialarmor2" value="1"/><input type="checkbox" value="1" name="attr_armor_special2" class="sheet-tooth sheet-checktooth"/><span></span></div>
 					</label>
 				</div>
 				<!-- COIN DON'T SPACE -->
 				<div class="sheet-cred-and-stash">
 					<div class="sheet-credrow sheet-flex">
-						<div class="sheet-label">Cred</div>
+						<div class="sheet-label">크레드</div>
 						<div class="sheet-creds sheet-flex-center">
 							<input type="radio" value="0" name="attr_coin" class="sheet-zero" checked/><span></span><input type="radio" value="1"name="attr_coin" class="sheet-radiobox"/><span></span><input type="radio" value="2" name="attr_coin" class="sheet-radiobox"/><span></span><input type="radio" value="3" name="attr_coin" class="sheet-radiobox"/><span></span><input type="radio" value="4" name="attr_coin" class="sheet-radiobox"/><span></span>
 						</div>
-						<div class="sheet-label">Stash</div>
+						<div class="sheet-label">저축</div>
 					</div>
 					<div class="sheet-stash">
 						<input type="radio" value="0" name="attr_stash" class="sheet-zero" checked/><span></span><input type="radio" value="1" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="2" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="3" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="4" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="5" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="6" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="7" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="8" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="9" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="10" name="attr_stash" class="sheet-radiobox sheet-endbox"/><span></span><br/><input type="radio" value="11" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="12" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="13" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="14" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="15" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="16" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="17" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="18" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="19" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="20" name="attr_stash" class="sheet-radiobox sheet-endbox"/><span></span><br/><input type="radio" value="21" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="22" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="23" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="24" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="25" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="26" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="27" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="28" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="29" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="30" name="attr_stash" class="sheet-radiobox sheet-endbox"/><span></span><br/><input type="radio" value="31" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="32" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="33" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="34" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="35" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="36" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="37" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="38" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="39" name="attr_stash" class="sheet-radiobox"/><span></span><input type="radio" value="40" name="attr_stash" class="sheet-radiobox sheet-endbox"/><span></span>
@@ -328,29 +328,29 @@
 		</div>
 		<!-- SPECIAL ABILITIES -->
 		<div class="sheet-def-margin">
-			<div class="sheet-specialheader sheet-label">Starting Ability</div>
+			<div class="sheet-specialheader sheet-label">초기 능력</div>
 			<div class="sheet-specialability sheet-flex-layout sheet-rep-block">
 				<input type="checkbox" name="attr_ability0_check" value="1" class="sheet-triangle"/><span></span>
 				<div class="sheet-auto-expand sheet-abilityname">
 					<span name="attr_ability0_name"></span>
-					<textarea spellcheck="false" name="attr_ability0_name" placeholder="Ability Name"></textarea>
+					<textarea spellcheck="false" name="attr_ability0_name" placeholder="능력 이름"></textarea>
 				</div>
 				<div class="sheet-auto-expand sheet-abilitydesc">
 					<span name="attr_ability0_description"></span>
-					<textarea spellcheck="false" name="attr_ability0_description"  placeholder="Ability description"></textarea>
+					<textarea spellcheck="false" name="attr_ability0_description"  placeholder="능력 설명"></textarea>
 				</div>
 			</div>
-			<div class="sheet-specialheader sheet-label">Special Abilities</div>
+			<div class="sheet-specialheader sheet-label">특수 능력</div>
 			<fieldset class="repeating_ability">
 				<div class="sheet-specialability sheet-flex-layout sheet-rep-block">
 					<input type="checkbox" name="attr_check" value="1" class="sheet-triangle"/><span></span>
 					<div class="sheet-auto-expand sheet-abilityname">
 						<span name="attr_name"></span>
-						<textarea spellcheck="false" name="attr_name" placeholder="Ability Name"></textarea>
+						<textarea spellcheck="false" name="attr_name" placeholder="능력 이름"></textarea>
 					</div>
 					<div class="sheet-auto-expand sheet-abilitydesc">
 						<span name="attr_description"></span>
-						<textarea spellcheck="false" name="attr_description" placeholder="Ability description"></textarea>
+						<textarea spellcheck="false" name="attr_description" placeholder="능력 설명"></textarea>
 					</div>
 				</div>
 			</fieldset>
@@ -358,8 +358,8 @@
 		<!-- ADVANCEMENT -->
 		<div class="sheet-advancement">
 			<div class="sheet-advancement-header sheet-flex sheet-blackheader">
-				<div class="sheet-label">Mark XP:</div>
-				<div class="sheet-label">Playbook Advancement</div>
+				<div class="sheet-label">XP 표시:</div>
+				<div class="sheet-label">플레이북 성장</div>
 				<div class="sheet-advancement-xpholder">
 					<!-- XP DO NOT SPACE -->
 					<input type="radio" value="0" name="attr_playbook_xp" class="sheet-tooth sheet-zero" checked/><span></span><input type="radio" value="1" name="attr_playbook_xp" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="2" name="attr_playbook_xp" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="3" name="attr_playbook_xp" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="4" name="attr_playbook_xp" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="5" name="attr_playbook_xp" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="6" name="attr_playbook_xp" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="7" name="attr_playbook_xp" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="8" name="attr_playbook_xp" class="sheet-tooth sheet-xptooth"/><span></span>
@@ -367,37 +367,37 @@
 			</div>
 			<!-- XP TRIGGERS -->
 			<ul class="sheet-advancement-desc">
-				<li>Every time you roll a desperate action, mark xp in that action's attribute.</li>
-				<li class="sheet-nondot">At the end of each session, for each item below, mark 1 xp (in your playbook or an attribute) or 2 xp if that item occurred multiple times.</li>
-				<li><input type="text" spellcheck="false" placeholder="Enter your playbook's specific way to mark XP here." name="attr_xp_condition"/></li>
-				<input type="checkbox" name="attr_setting_extra_xp" value="1" class="sheet-hidden sheet-xp-hider"/><li><input type="text" spellcheck="false" placeholder="Enter another specific way to mark XP here." name="attr_xp_condition_extra"/></li>
-				<li><input type="text" spellcheck="false" value="You expressed your beliefs, drives, heritage, or background." name="attr_xp_condition2"/></li>
-				<li><input type="text" spellcheck="false" value="You struggled with issues from your vice or traumas during the session." name="attr_xp_condition3"/></li>
+				<li>필사적인 행동 판정을 할 때마다 사용한 행동에 해당하는 특성 수치에 1xp를 표시합니다.</li>
+				<li class="sheet-nondot">세션이 끝났을 때, 다음 중 그 세션에 일어난 항목 하나마다 1xp를 받습니다. 많이 일어난 항목은 1xp를 더해 총 2xp를 받습니다. 이 xp는 어느 특성이나 플레이북에도 표시할 수 있습니다.</li>
+				<li><input type="text" spellcheck="false" placeholder="플레이북의 고유 xp 발생 조건을 적으세요." name="attr_xp_condition"/></li>
+				<input type="checkbox" name="attr_setting_extra_xp" value="1" class="sheet-hidden sheet-xp-hider"/><li><input type="text" spellcheck="false" placeholder="플레이북의 고유 xp 발생 조건을 적으세요." name="attr_xp_condition_extra"/></li>
+				<li><input type="text" spellcheck="false" value="신념, 동기, 혈통, 출신을 표현한 경우." name="attr_xp_condition2"/></li>
+				<li><input type="text" spellcheck="false" value="자기의 악습이나 트라우마에서 비롯된 문제로 고생한 경우." name="attr_xp_condition3"/></li>
 			</ul>
 		</div>
 		<div class="sheet-flex-layout">
 			<div class="sheet-col50a sheet-teamwork">
-				<div class="sheet-plainheader sheet-label">Teamwork</div>
-				<div class="sheet-teamworkbox"><span>Lead a </span><span class="sheet-bold">group action</span></div>
-				<div class="sheet-teamworkbox"><span class="sheet-bold">Set up</span><span> a teammate</span></div>
-				<div class="sheet-teamworkbox"><span class="sheet-bold">Protect</span><span> a teammate</span></div>
-				<div class="sheet-teamworkbox"><span class="sheet-bold">Assist</span><span> a teammate</span></div>
+				<div class="sheet-plainheader sheet-label">팀워크</div>
+				<div class="sheet-teamworkbox"><span class="sheet-bold">집단 행동</span><span>을 이끈다.</span></div>
+				<div class="sheet-teamworkbox"><span>다른 캐릭터의 </span><span class="sheet-bold">밑작업</span><span>을 한다.</span></div>
+				<div class="sheet-teamworkbox"><span>동료를 </span><span class="sheet-bold">보호</span><span>한다</span></div>
+				<div class="sheet-teamworkbox"><span>다른 캐릭터에게 </span><span class="sheet-bold">도움</span><span>을 준다.</span></div>
 			</div>
 			<!-- Gather Info -->
 			<div class="sheet-col50b sheet-gatherinfo">
-				<div class="sheet-plainheader sheet-label">Gather Information</div>
+				<div class="sheet-plainheader sheet-label">정보 수집</div>
 				<ul>
-					<li><input type="text" spellcheck="false" name="attr_gatherinfo1" value="What's their intention?"/></li>
+					<li><input type="text" spellcheck="false" name="attr_gatherinfo1" value="저들의 의도는 무엇인가?"/></li>
 					<li>
 						<div class="sheet-auto-expand">
 							<span name="attr_gatherinfo2"></span>
-							<textarea spellcheck="false" name="attr_gatherinfo2">What might I suspect about this? What can I prove?"</textarea>
+							<textarea spellcheck="false" name="attr_gatherinfo2">여기서 의심할 만한 것은? 내가 증명할 수 있는 것은?"</textarea>
 						</div>
 					</li>
-					<li><input type="text" spellcheck="false" name="attr_gatherinfo3" value="What's the danger here?"/></li>
-					<li><input type="text" spellcheck="false" name="attr_gatherinfo4" value="How can I find ______?"/></li>
-					<li><input type="text" spellcheck="false" name="attr_gatherinfo5" value="What's really going on here?"/></li>
-					<li><input type="text" spellcheck="false" name="attr_gatherinfo6" value="Ask about a detail for a plan."/></li>
+					<li><input type="text" spellcheck="false" name="attr_gatherinfo3" value="여기서 위험은 무엇인가?"/></li>
+					<li><input type="text" spellcheck="false" name="attr_gatherinfo4" value="______을 찾으려면 어떻게 해야?"/></li>
+					<li><input type="text" spellcheck="false" name="attr_gatherinfo5" value="진짜로 일어나고 있는 일은?"/></li>
+					<li><input type="text" spellcheck="false" name="attr_gatherinfo6" value="계획의 세부사항에 관한 질문."/></li>
 				</ul>
 			</div>
 		</div>
@@ -406,25 +406,25 @@
 		<div class="sheet-col50b">
 			<!-- LOAD -->
 			<div class="sheet-loadheader sheet-load sheet-flex-center">
-				<span class="sheet-label">Load</span>
+				<span class="sheet-label">하중</span>
 				<label class="sheet-loadcheckholder sheet-flex-center">
 					<input type="checkbox" name="attr_load" value="light" class="sheet-checkbox"/><span></span>
 					<span class="sheet-loadnumber" name="attr_setting_load_l"></span>
-					<span>light</span>
+					<span>가벼움</span>
 				</label>
 				<label class="sheet-loadcheckholder sheet-flex-center">
 					<input type="checkbox" name="attr_load" value="normal" class="sheet-checkbox"/><span></span>
 					<span class="sheet-loadnumber" name="attr_setting_load_n"></span>
-					<span>normal</span>
+					<span>보통</span>
 				</label>
 				<label class="sheet-loadcheckholder sheet-flex-center">
 					<input type="checkbox" name="attr_load" value="heavy" class="sheet-checkbox"/><span></span>
 					<span class="sheet-loadnumber" name="attr_setting_load_h"></span>
-					<span>heavy</span>
+					<span>무거움</span>
 				</label>
 			</div>
 			<div class="sheet-loadheader">
-				<span class="sheet-label">Items</span><span class="sheet-italic">(italics don't count for load)</span>
+				<span class="sheet-label">물품</span><span class="sheet-italic">(이탤릭은 하중 없음)</span>
 			</div>
 			<div class="sheet-itemholder sheet-white-repcontrol sheet-items">
 				<!-- PLAYBOOK ITEMS -->
@@ -434,22 +434,22 @@
 						<input class="sheet-checkbox" type="checkbox" name="attr_item_0_check1" value="1"/><span></span>
 						<div class="sheet-auto-expand sheet-itemname">
 							<span name="attr_item_0_name"></span>
-							<textarea spellcheck="false" name="attr_item_0_name" placeholder="A fine item (or pair)"></textarea>
+							<textarea spellcheck="false" name="attr_item_0_name" placeholder="고급 물품"></textarea>
 						</div>
 						<input class="sheet-checkbox" type="checkbox" name="attr_item_0_check2" value="1"/><span></span>
 					</div>
 					<fieldset class="repeating_playbookitem">
 						<input class="sheet-hidden sheet-boxes-chosen" type="checkbox" name="attr_boxes_chosen" value="1"/>
 						<div class="sheet-item sheet-numboxes-chooser">
-							<div>How much load?</div>
+							<div>하중은 얼마?</div>
 							<input type="number" name="attr_numboxes" min="0" max="2" value="1"/>
 							<label>
 								<input type="checkbox" name="attr_bold" value="1"/>
-								<span>bold</span>
+								<span>볼드</span>
 							</label>
 							<label>
 								<input type="checkbox" class="sheet-boxes-chosen" name="attr_boxes_chosen" value="1"/>
-								<span class="sheet-okbutton">OK</span>
+								<span class="sheet-okbutton">확인</span>
 							</label>
 						</div>
 						<div class="sheet-item">
@@ -460,34 +460,34 @@
 							<input class="sheet-checkbox sheet-boxesgeq2" type="checkbox" name="attr_check2" value="1"/><span class="sheet-boxesgeq2"></span>
 							<div class="sheet-auto-expand sheet-itemname">
 								<span name="attr_name"></span>
-								<textarea spellcheck="false" name="attr_name" placeholder="A useful item"></textarea>
+								<textarea spellcheck="false" name="attr_name" placeholder="유용한 물품"></textarea>
 							</div>
 						</div>
 					</fieldset>
 				</div>
 				<!-- REGULAR ITEMS-->
 				<div class="sheet-regularitems">
-					<div class="sheet-item"><input type="checkbox" name="attr_item_1_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="A Blaster Pistol" name="attr_item_1_name"/></div>
-					<div class="sheet-item"><input type="checkbox" name="attr_item_2_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="2nd Blaster Pistol" name="attr_item_2_name"/></div>
-					<div class="sheet-item"><input type="checkbox" name="attr_item_3_check1" value="1" class="sheet-checkbox"/><span></span><span class="sheet-floatingbar"></span><input type="checkbox" name="attr_item_3_check2" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Heavy Blaster" name="attr_item_3_name"/></div>
-					<div class="sheet-item"><input type="checkbox" name="attr_item_4_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Detonator" name="attr_item_4_name"/></div>
-					<div class="sheet-item"><input type="checkbox" name="attr_item_5_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Hacking Tools" name="attr_item_5_name"/></div>
-					<div class="sheet-item"><input type="checkbox" name="attr_item_6_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Repair Tools" name="attr_item_6_name"/></div>
-					<div class="sheet-item"><input type="checkbox" name="attr_item_7_check1" value="1" class="sheet-checkbox"/><span></span><span class="sheet-floatingbar"></span><input type="checkbox" name="attr_item_7_check2" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Medkit" name="attr_item_7_name"/></div>
-					<div class="sheet-item"><input type="checkbox" name="attr_item_8_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Maps and Charts" name="attr_item_8_name"/></div>
-					<div class="sheet-item"><input type="checkbox" name="attr_item_9_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Spy Gear" name="attr_item_9_name"/></div>
-					<div class="sheet-item sheet-itemitalic"><input type="checkbox" name="attr_item_10_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Illicit Drugs" name="attr_item_10_name"/></div>
-					<div class="sheet-item"><input type="checkbox" name="attr_item_11_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Communicator" name="attr_item_11_name"/></div>
-					<div class="sheet-item"><input type="checkbox" name="attr_item_12_check1" value="1" class="sheet-checkbox"/><span></span><span class="sheet-floatingbar"></span><input type="checkbox" name="attr_item_12_check2" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Armor" name="attr_item_12_name"/></div>
-					<div class="sheet-item"><input type="checkbox" name="attr_item_13_check1" value="1" class="sheet-checkbox"/><span></span><span class="sheet-floatingbar"></span><input type="checkbox" name="attr_item_13_check2" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Spacesuit" name="attr_item_13_name"/></div>
+					<div class="sheet-item"><input type="checkbox" name="attr_item_12_check1" value="1" class="sheet-checkbox"/><span></span><span class="sheet-floatingbar"></span><input type="checkbox" name="attr_item_12_check2" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="갑옷" name="attr_item_12_name"/></div>
+					<div class="sheet-item"><input type="checkbox" name="attr_item_3_check1" value="1" class="sheet-checkbox"/><span></span><span class="sheet-floatingbar"></span><input type="checkbox" name="attr_item_3_check2" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="대형 블라스터" name="attr_item_3_name"/></div>
+					<div class="sheet-item"><input type="checkbox" name="attr_item_8_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="백병전 무기" name="attr_item_8_name"/></div>
+					<div class="sheet-item sheet-itemitalic"><input type="checkbox" name="attr_item_10_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="불법 약물" name="attr_item_10_name"/></div>
+					<div class="sheet-item"><input type="checkbox" name="attr_item_1_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="블라스터 권총" name="attr_item_1_name"/></div>
+					<div class="sheet-item"><input type="checkbox" name="attr_item_2_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="블라스터 권총 하나 더" name="attr_item_2_name"/></div>
+					<div class="sheet-item"><input type="checkbox" name="attr_item_6_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="수리 공구" name="attr_item_6_name"/></div>
+					<div class="sheet-item"><input type="checkbox" name="attr_item_13_check1" value="1" class="sheet-checkbox"/><span></span><span class="sheet-floatingbar"></span><input type="checkbox" name="attr_item_13_check2" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="우주복" name="attr_item_13_name"/></div>
+					<div class="sheet-item"><input type="checkbox" name="attr_item_4_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="유탄" name="attr_item_4_name"/></div>
+					<div class="sheet-item"><input type="checkbox" name="attr_item_7_check1" value="1" class="sheet-checkbox"/><span></span><span class="sheet-floatingbar"></span><input type="checkbox" name="attr_item_7_check2" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="의료 키트" name="attr_item_7_name"/></div>
+					<div class="sheet-item"><input type="checkbox" name="attr_item_9_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="첩보 장비" name="attr_item_9_name"/></div>
+					<div class="sheet-item"><input type="checkbox" name="attr_item_11_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="통신기" name="attr_item_11_name"/></div>
+					<div class="sheet-item"><input type="checkbox" name="attr_item_5_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="해킹 용품" name="attr_item_5_name"/></div>
 					<fieldset class="repeating_item">
 						<input class="sheet-hidden sheet-boxes-chosen" type="checkbox" name="attr_boxes_chosen" value="1"/>
 						<div class="sheet-item sheet-numboxes-chooser">
-							<div>How much load?</div>
+							<div>하중은 얼마?</div>
 							<input type="number" name="attr_numboxes" min="0" max="2" value="1"/>
 							<label>
 								<input type="checkbox" class="sheet-boxes-chosen" name="attr_boxes_chosen" value="1"/>
-								<span class="sheet-okbutton">OK</span>
+								<span class="sheet-okbutton">확인</span>
 							</label>
 						</div>
 						<div class="sheet-item">
@@ -497,24 +497,24 @@
 							<input class="sheet-checkbox sheet-boxesgeq2" type="checkbox" name="attr_check2" value="1"/><span class="sheet-boxesgeq2"></span>
 							<div class="sheet-auto-expand sheet-itemname">
 								<span name="attr_name"></span>
-								<textarea spellcheck="false" name="attr_name" placeholder="A useful item"></textarea>
+								<textarea spellcheck="false" name="attr_name" placeholder="유용한 물품"></textarea>
 							</div>
 						</div>
 					</fieldset>
 				</div>
 			</div>
 			<div class="sheet-planning sheet-def-margin">
-				<div class="sheet-plainheader sheet-label">Planning &amp; Load</div>
+				<div class="sheet-plainheader sheet-label">계획과 하중</div>
 				<div class="sheet-planningdesc">
-					<span>Choose a plan, provide the </span><span class="sheet-italic sheet-bold">detail</span>.<br/>
-					<span>Choose your </span><span class="sheet-italic sheet-bold">load</span><span> for the operation.</span>
+					<span>계획을 고르고, 하중을 선택하고,</span><br/>
+					<span>세부사항을 채웁니다:</span>
 				</div>
-				<div class="sheet-teamworkbox"><span class="sheet-bold">Assault:</span><span> Point of attack</span></div>
-				<div class="sheet-teamworkbox"><span class="sheet-bold">Deception:</span><span> Method</span></div>
-				<div class="sheet-teamworkbox"><span class="sheet-bold">Infiltration:</span><span> Entry point</span></div>
-				<div class="sheet-teamworkbox"><span class="sheet-bold">Mystic:</span><span> Arcane power</span></div>
-				<div class="sheet-teamworkbox"><span class="sheet-bold">Social:</span><span> Social Connection</span></div>
-				<div class="sheet-teamworkbox"><span class="sheet-bold">Transport:</span><span> Locations / Route</span></div>
+				<div class="sheet-teamworkbox"><span class="sheet-bold">사교 계획:</span><span> 사교적 연결점.</span></div>
+				<div class="sheet-teamworkbox"><span class="sheet-bold">속임수 계획:</span><span> 속임수의 방법.</span></div>
+				<div class="sheet-teamworkbox"><span class="sheet-bold">습격 계획:</span><span> 공격 지점.</span></div>
+				<div class="sheet-teamworkbox"><span class="sheet-bold">신비 계획:</span><span> 신비한 힘.</span></div>
+				<div class="sheet-teamworkbox"><span class="sheet-bold">운송 계획:</span><span> 경로와 수법.</span></div>
+				<div class="sheet-teamworkbox"><span class="sheet-bold">침투 계획:</span><span> 침투 지점.</span></div>
 			</div>
 		</div>
 		<!-- Attributes columns -->
@@ -522,7 +522,7 @@
 			<!-- Insight -->
 			<div class="sheet-attribute">
 				<div class="sheet-attribute-title sheet-flex">
-					<button class="sheet-rollbutton sheet-attributebutton" type="roll" name="roll_Insight" value="&{template:bitd} {{charname=@{character_name}}} {{resist=1}} {{subtitle=resists @{consequence_query} with}} {{title-insight=1}} {{roll1=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{roll10=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-9}]],1}kl1]]d6]]}} {{roll11=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-10}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-(@{insight}+@{resbonus_insight})-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-(@{insight}+@{resbonus_insight})-@{bonusdice}]],1}kl1]]d6]]}}">Insight
+					<button class="sheet-rollbutton sheet-attributebutton" type="roll" name="roll_Insight" value="&{template:bitd} {{charname=@{character_name}}} {{resist=1}} {{subtitle=resists @{consequence_query} with}} {{title-insight=1}} {{roll1=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{roll10=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-9}]],1}kl1]]d6]]}} {{roll11=[[[[{[[@{insight}+@{resbonus_insight}+@{bonusdice}-10}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-(@{insight}+@{resbonus_insight})-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-(@{insight}+@{resbonus_insight})-@{bonusdice}]],1}kl1]]d6]]}}">통찰
 					</button>
 					<input type="hidden" name="attr_insight" value="0"/>
 					<input type="hidden" name="attr_insight_xp_max" value="6"/>
@@ -530,26 +530,6 @@
 					</div>
 				</div>
 				<div class="sheet-actions sheet-col100">
-					<!-- Doctor -->
-					<div class="sheet-action sheet-flex">
-						<input class="sheet-hidden sheet-fakeradio" type="checkbox" name="attr_doctor" value="0" checked="checked"/>
-						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_doctor" value="1"/><span></span>
-						<div class="sheet-divider"></div>
-						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_doctor" value="2"/><span></span>
-						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_doctor" value="3"/><span></span>
-						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Doctor" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-doctor=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{doctor}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{doctor}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{doctor}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{doctor}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{doctor}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{doctor}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{doctor}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{doctor}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{doctor}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{doctor}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{doctor}-@{bonusdice}]],1}kl1]]d6]]}}">Doctor
-						</button>
-					</div>
-					<!-- Hack -->
-					<div class="sheet-action sheet-flex">
-						<input class="sheet-hidden sheet-fakeradio" type="checkbox" name="attr_hack" value="0" checked="checked"/>
-						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_hack" value="1"/><span></span>
-						<div class="sheet-divider"></div>
-						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_hack" value="2"/><span></span>
-						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_hack" value="3"/><span></span>
-						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Hack" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-hack=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{hack}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{hack}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{hack}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{hack}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{hack}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{hack}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{hack}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{hack}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{hack}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{hack}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{hack}-@{bonusdice}]],1}kl1]]d6]]}}">Hack
-						</button>
-					</div>
 					<!-- Rig -->
 					<div class="sheet-action sheet-flex">
 						<input class="sheet-hidden sheet-fakeradio" type="checkbox" name="attr_rig" value="0" checked="checked"/>
@@ -557,7 +537,17 @@
 						<div class="sheet-divider"></div>
 						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_rig" value="2"/><span></span>
 						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_rig" value="3"/><span></span>
-						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Rig" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-rig=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{rig}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{rig}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{rig}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{rig}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{rig}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{rig}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{rig}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{rig}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{rig}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{rig}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{rig}-@{bonusdice}]],1}kl1]]d6]]}}">Rig
+						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Rig" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-rig=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{rig}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{rig}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{rig}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{rig}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{rig}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{rig}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{rig}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{rig}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{rig}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{rig}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{rig}-@{bonusdice}]],1}kl1]]d6]]}}">공작
+						</button>
+					</div>
+					<!-- Doctor -->
+					<div class="sheet-action sheet-flex">
+						<input class="sheet-hidden sheet-fakeradio" type="checkbox" name="attr_doctor" value="0" checked="checked"/>
+						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_doctor" value="1"/><span></span>
+						<div class="sheet-divider"></div>
+						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_doctor" value="2"/><span></span>
+						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_doctor" value="3"/><span></span>
+						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Doctor" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-doctor=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{doctor}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{doctor}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{doctor}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{doctor}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{doctor}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{doctor}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{doctor}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{doctor}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{doctor}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{doctor}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{doctor}-@{bonusdice}]],1}kl1]]d6]]}}">의료
 						</button>
 					</div>
 					<!-- Study -->
@@ -567,7 +557,17 @@
 						<div class="sheet-divider"></div>
 						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_study" value="2"/><span></span>
 						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_study" value="3"/><span></span>
-						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Study" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-study=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{study}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{study}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{study}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{study}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{study}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{study}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{study}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{study}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{study}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{study}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{study}-@{bonusdice}]],1}kl1]]d6]]}}">Study
+						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Study" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-study=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{study}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{study}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{study}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{study}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{study}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{study}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{study}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{study}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{study}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{study}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{study}-@{bonusdice}]],1}kl1]]d6]]}}">조사
+						</button>
+					</div>
+					<!-- Hack -->
+					<div class="sheet-action sheet-flex">
+						<input class="sheet-hidden sheet-fakeradio" type="checkbox" name="attr_hack" value="0" checked="checked"/>
+						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_hack" value="1"/><span></span>
+						<div class="sheet-divider"></div>
+						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_hack" value="2"/><span></span>
+						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_hack" value="3"/><span></span>
+						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Hack" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-hack=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{hack}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{hack}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{hack}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{hack}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{hack}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{hack}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{hack}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{hack}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{hack}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{hack}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{hack}-@{bonusdice}]],1}kl1]]d6]]}}">해킹
 						</button>
 					</div>
 				</div>
@@ -575,7 +575,7 @@
 			<!-- Prowess -->
 			<div class="sheet-attribute">
 				<div class="sheet-attribute-title sheet-flex">
-					<button class="sheet-rollbutton sheet-attributebutton" type="roll" name="roll_Prowess" value="&{template:bitd} {{charname=@{character_name}}} {{resist=1}} {{subtitle=resists @{consequence_query} with}} {{title-prowess=1}} {{roll1=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{roll10=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-9}]],1}kl1]]d6]]}} {{roll11=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-10}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-(@{prowess}+@{resbonus_prowess})-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-(@{prowess}+@{resbonus_prowess})-@{bonusdice}]],1}kl1]]d6]]}}">Prowess
+					<button class="sheet-rollbutton sheet-attributebutton" type="roll" name="roll_Prowess" value="&{template:bitd} {{charname=@{character_name}}} {{resist=1}} {{subtitle=resists @{consequence_query} with}} {{title-prowess=1}} {{roll1=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{roll10=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-9}]],1}kl1]]d6]]}} {{roll11=[[[[{[[@{prowess}+@{resbonus_prowess}+@{bonusdice}-10}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-(@{prowess}+@{resbonus_prowess})-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-(@{prowess}+@{resbonus_prowess})-@{bonusdice}]],1}kl1]]d6]]}}">체력
 					</button>
 					<input type="hidden" name="attr_prowess" value="0"/>
 					<input type="hidden" name="attr_prowess_xp_max" value="6"/>
@@ -583,16 +583,6 @@
 					</div>
 				</div>
 				<div class="sheet-actions sheet-col100">
-					<!-- Helm -->
-					<div class="sheet-action sheet-flex">
-						<input class="sheet-hidden sheet-fakeradio" type="checkbox" name="attr_helm" value="0" checked="checked"/>
-						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_helm" value="1"/><span></span>
-						<div class="sheet-divider"></div>
-						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_helm" value="2"/><span></span>
-						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_helm" value="3"/><span></span>
-						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Helm" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-helm=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{helm}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{helm}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{helm}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{helm}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{helm}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{helm}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{helm}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{helm}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{helm}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{helm}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{helm}-@{bonusdice}]],1}kl1]]d6]]}}">Helm
-						</button>
-					</div>
 					<!-- Scramble -->
 					<div class="sheet-action sheet-flex">
 						<input class="sheet-hidden sheet-fakeradio" type="checkbox" name="attr_scramble" value="0" checked="checked"/>
@@ -600,7 +590,7 @@
 						<div class="sheet-divider"></div>
 						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_scramble" value="2"/><span></span>
 						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_scramble" value="3"/><span></span>
-						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Scramble" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-scramble=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{scramble}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{scramble}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{scramble}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{scramble}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{scramble}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{scramble}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{scramble}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{scramble}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{scramble}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{scramble}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{scramble}-@{bonusdice}]],1}kl1]]d6]]}}">Scramble
+						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Scramble" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-scramble=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{scramble}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{scramble}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{scramble}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{scramble}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{scramble}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{scramble}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{scramble}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{scramble}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{scramble}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{scramble}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{scramble}-@{bonusdice}]],1}kl1]]d6]]}}">기동
 						</button>
 					</div>
 					<!-- Scrap -->
@@ -610,7 +600,17 @@
 						<div class="sheet-divider"></div>
 						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_scrap" value="2"/><span></span>
 						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_scrap" value="3"/><span></span>
-						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Scrap" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-scrap=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{scrap}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{scrap}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{scrap}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{scrap}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{scrap}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{scrap}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{scrap}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{scrap}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{scrap}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{scrap}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{scrap}-@{bonusdice}]],1}kl1]]d6]]}}">Scrap
+						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Scrap" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-scrap=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{scrap}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{scrap}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{scrap}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{scrap}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{scrap}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{scrap}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{scrap}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{scrap}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{scrap}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{scrap}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{scrap}-@{bonusdice}]],1}kl1]]d6]]}}">싸움
+						</button>
+					</div>
+					<!-- Helm -->
+					<div class="sheet-action sheet-flex">
+						<input class="sheet-hidden sheet-fakeradio" type="checkbox" name="attr_helm" value="0" checked="checked"/>
+						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_helm" value="1"/><span></span>
+						<div class="sheet-divider"></div>
+						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_helm" value="2"/><span></span>
+						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_helm" value="3"/><span></span>
+						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Helm" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-helm=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{helm}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{helm}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{helm}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{helm}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{helm}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{helm}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{helm}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{helm}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{helm}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{helm}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{helm}-@{bonusdice}]],1}kl1]]d6]]}}">조타
 						</button>
 					</div>
 					<!-- Skulk -->
@@ -620,7 +620,7 @@
 						<div class="sheet-divider"></div>
 						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_skulk" value="2"/><span></span>
 						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_skulk" value="3"/><span></span>
-						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Skulk" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-skulk=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{skulk}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{skulk}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{skulk}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{skulk}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{skulk}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{skulk}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{skulk}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{skulk}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{skulk}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{skulk}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{skulk}-@{bonusdice}]],1}kl1]]d6]]}}">Skulk
+						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Skulk" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-skulk=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{skulk}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{skulk}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{skulk}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{skulk}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{skulk}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{skulk}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{skulk}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{skulk}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{skulk}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{skulk}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{skulk}-@{bonusdice}]],1}kl1]]d6]]}}">잠행
 						</button>
 					</div>
 				</div>
@@ -628,7 +628,7 @@
 			<!-- Resolve -->
 			<div class="sheet-attribute">
 				<div class="sheet-attribute-title sheet-flex">
-					<button class="sheet-rollbutton sheet-attributebutton" type="roll" name="roll_Resolve" value="&{template:bitd} {{charname=@{character_name}}} {{resist=1}} {{subtitle=resists @{consequence_query} with}} {{title-resolve=1}} {{roll1=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{roll10=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-9}]],1}kl1]]d6]]}} {{roll11=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-10}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-(@{resolve}+@{resbonus_resolve})-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-(@{resolve}+@{resbonus_resolve})-@{bonusdice}]],1}kl1]]d6]]}}">Resolve
+					<button class="sheet-rollbutton sheet-attributebutton" type="roll" name="roll_Resolve" value="&{template:bitd} {{charname=@{character_name}}} {{resist=1}} {{subtitle=resists @{consequence_query} with}} {{title-resolve=1}} {{roll1=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{roll10=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-9}]],1}kl1]]d6]]}} {{roll11=[[[[{[[@{resolve}+@{resbonus_resolve}+@{bonusdice}-10}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-(@{resolve}+@{resbonus_resolve})-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-(@{resolve}+@{resbonus_resolve})-@{bonusdice}]],1}kl1]]d6]]}}">의지
 					</button>
 					<input type="hidden" name="attr_resolve" value="0"/>
 					<input type="hidden" name="attr_resolve_xp_max" value="6"/>
@@ -636,16 +636,6 @@
 					</div>
 				</div>
 				<div class="sheet-actions sheet-col100">
-					<!-- Attune -->
-					<div class="sheet-action sheet-flex">
-						<input class="sheet-hidden sheet-fakeradio" type="checkbox" name="attr_attune" value="0" checked="checked"/>
-						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_attune" value="1"/><span></span>
-						<div class="sheet-divider"></div>
-						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_attune" value="2"/><span></span>
-						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_attune" value="3"/><span></span>
-						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Attune" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-attune=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{attune}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{attune}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{attune}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{attune}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{attune}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{attune}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{attune}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{attune}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{attune}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{attune}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{attune}-@{bonusdice}]],1}kl1]]d6]]}}">Attune
-						</button>
-					</div>
 					<!-- Command -->
 					<div class="sheet-action sheet-flex">
 						<input class="sheet-hidden sheet-fakeradio" type="checkbox" name="attr_command" value="0" checked="checked"/>
@@ -653,7 +643,17 @@
 						<div class="sheet-divider"></div>
 						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_command" value="2"/><span></span>
 						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_command" value="3"/><span></span>
-						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Command" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-command=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{command}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{command}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{command}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{command}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{command}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{command}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{command}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{command}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{command}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{command}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{command}-@{bonusdice}]],1}kl1]]d6]]}}">Command
+						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Command" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-command=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{command}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{command}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{command}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{command}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{command}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{command}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{command}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{command}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{command}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{command}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{command}-@{bonusdice}]],1}kl1]]d6]]}}">명령
+						</button>
+					</div>
+					<!-- Attune -->
+					<div class="sheet-action sheet-flex">
+						<input class="sheet-hidden sheet-fakeradio" type="checkbox" name="attr_attune" value="0" checked="checked"/>
+						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_attune" value="1"/><span></span>
+						<div class="sheet-divider"></div>
+						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_attune" value="2"/><span></span>
+						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_attune" value="3"/><span></span>
+						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Attune" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-attune=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{attune}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{attune}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{attune}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{attune}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{attune}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{attune}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{attune}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{attune}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{attune}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{attune}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{attune}-@{bonusdice}]],1}kl1]]d6]]}}">조율
 						</button>
 					</div>
 					<!-- Consort -->
@@ -663,7 +663,7 @@
 						<div class="sheet-divider"></div>
 						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_consort" value="2"/><span></span>
 						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_consort" value="3"/><span></span>
-						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Consort" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-consort=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{consort}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{consort}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{consort}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{consort}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{consort}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{consort}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{consort}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{consort}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{consort}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{consort}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{consort}-@{bonusdice}]],1}kl1]]d6]]}}">Consort
+						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Consort" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-consort=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{consort}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{consort}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{consort}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{consort}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{consort}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{consort}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{consort}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{consort}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{consort}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{consort}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{consort}-@{bonusdice}]],1}kl1]]d6]]}}">친교
 						</button>
 					</div>
 					<!-- Sway -->
@@ -673,7 +673,7 @@
 						<div class="sheet-divider"></div>
 						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_sway" value="2"/><span></span>
 						<input class="sheet-triangle sheet-fakeradio" type="checkbox" name="attr_sway" value="3"/><span></span>
-						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Sway" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-sway=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{sway}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{sway}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{sway}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{sway}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{sway}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{sway}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{sway}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{sway}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{sway}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{sway}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{sway}-@{bonusdice}]],1}kl1]]d6]]}}">Sway
+						<button class="sheet-rollbutton sheet-actionbutton" type="roll" name="roll_Sway" value="&{template:bitd} {{charname=@{character_name}}} {{action=1}} {{subtitle=rolls}} {{title-sway=1}} {{position=?{Position|Risky|Controlled|Desperate}}} {{effect=?{Effect|Standard|Limited|Great|Extreme}}} {{roll1=[[[[{[[@{sway}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{sway}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{sway}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{sway}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{sway}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{sway}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{sway}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{sway}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{sway}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{sway}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{sway}-@{bonusdice}]],1}kl1]]d6]]}}">현혹
 						</button>
 					</div>
 				</div>
@@ -681,55 +681,55 @@
 
 			<!-- BONUS DICE -->
 			<div class="sheet-bonusdie">
-				<div class="sheet-label">Bonus Dice</div>
+				<div class="sheet-label">보너스 주사위</div>
 				<div class="sheet-flex">
 					<div class="sheet-bonusdieplus sheet-flex-centerall">+</div>
 					<div class="sheet-bonusdietext">
-						<div class="sheet-smallcaps">Push yourself</div>
-						<div>(take 2 <span name="attr_setting_stress_label"></span>) —or— accept a</div>
-						<div class="sheet-smallcaps">Devil's Bargain</div>
+						<div class="sheet-smallcaps">분발 (2 스트레스)</div>
+						<div> —또는— </div>
+						<div class="sheet-smallcaps">악마와의 거래 수락</div>
 					</div>
 				</div>
 				<div class="sheet-flex">
 					<div class="sheet-bonusdieplus sheet-flex-centerall">+</div>
 					<div class="sheet-bonusdietext">
-						<span class="sheet-smallcaps">Assist</span><span> (they take 1 <span name="attr_setting_stress_label"></span>)</span>
+						<span class="sheet-smallcaps">도움</span><span> (주는 쪽이 1 스트레스)</span>
 					</div>
 				</div>
 				<div class="sheet-flex">
 					<div class="sheet-bonusdieplus sheet-flex-centerall">+</div>
 					<div class="sheet-bonusdietext">
-						<span class="sheet-smallcaps">spend a gambit</span>
+						<span class="sheet-smallcaps">묘수 소비</span>
 					</div>
 				</div>
-				<div class="sheet-label">Gambits</div>
+				<div class="sheet-label">묘수</div>
 				<div class="sheet-flex">
 					<div class="sheet-bonusdieplus sheet-flex-centerall">+</div>
 					<div class="sheet-bonusdietext">
-						<span>Add a </span><span class="sheet-smallcaps">gambit</span><span> to your crew when you roll a </span><span class="sheet-smallcaps">6</span><span> or </span><span class="sheet-smallcaps">critical</span><span> on a </span><span class="sheet-smallcaps">risky</span><span> action and you didn't </span><span class="sheet-smallcaps">spend a gambit</span><span> on a bonus die.</span>
+						<span class="sheet-smallcaps">묘수</span><span>를 소비하지 않은 </span><span class="sheet-smallcaps">모험적</span><span> 판정에서 </span><span class="sheet-smallcaps">6</span><span>이나 </span><span class="sheet-smallcaps">대성공</span><span>이 나오면 </span><span class="sheet-smallcaps">묘수</span><span> 하나 추가.</span>
 					</div>
 				</div>
 			</div>
 
 			<!-- FRIENDS -->
 			<div class="sheet-friends">
-				<input type="text" spellcheck="false" class="sheet-specialheader sheet-label" name="attr_friend_adjective" value="Friends"/>
+				<input type="text" spellcheck="false" class="sheet-specialheader sheet-label" name="attr_friend_adjective" value="친구들"/>
 				<fieldset class="repeating_friend">
 					<div class="sheet-friend sheet-flex-center sheet-rep-block">
-						<input type="checkbox" name="attr_status" class="sheet-triangle sheet-friendup" value="up"/><span></span><input type="checkbox" class="sheet-triangle sheet-frienddown" name="attr_status" value="down"/><span></span><div class="sheet-auto-expand"><span name="attr_name"></span><textarea spellcheck="false" name="attr_name"placeholder="Friend name"></textarea></div>
+						<input type="checkbox" name="attr_status" class="sheet-triangle sheet-friendup" value="up"/><span></span><input type="checkbox" class="sheet-triangle sheet-frienddown" name="attr_status" value="down"/><span></span><div class="sheet-auto-expand"><span name="attr_name"></span><textarea spellcheck="false" name="attr_name"placeholder="친구 이름"></textarea></div>
 					</div>
 				</fieldset>
 			</div>
-			<button type="roll" name="roll_Fortune" class="sheet-fortunebutton" value='&{template:bitd} {{charname=@{character_name}}} {{fortune=1}} {{subtitle=rolls}} {{title-fortune=1}} {{roll1=[[[[{?{Number of dice|0|1|2|3|4|5|6},1}kl1]]d6]]}} {{roll2=[[[[{[[?{Number of dice}]]-1,1}kl1]]d6]]}} {{roll3=[[[[{[[?{Number of dice}-2]],1}kl1]]d6]]}} {{roll4=[[[[{[[?{Number of dice}-3]],1}kl1]]d6]]}} {{roll5=[[[[{[[?{Number of dice}-4]],1}kl1]]d6]]}} {{roll6=[[[[{[[?{Number of dice}-5]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-(?{Number of dice})]],1}kl1]]d6]], [[[[{[[1-(?{Number of dice})]],1}kl1]]d6]]}} {{notes=?{Notes}}}'>Roll Fortune</button>
+			<button type="roll" name="roll_Fortune" class="sheet-fortunebutton" value='&{template:bitd} {{charname=@{character_name}}} {{fortune=1}} {{subtitle=rolls}} {{title-fortune=1}} {{roll1=[[[[{?{Number of dice|0|1|2|3|4|5|6},1}kl1]]d6]]}} {{roll2=[[[[{[[?{Number of dice}]]-1,1}kl1]]d6]]}} {{roll3=[[[[{[[?{Number of dice}-2]],1}kl1]]d6]]}} {{roll4=[[[[{[[?{Number of dice}-3]],1}kl1]]d6]]}} {{roll5=[[[[{[[?{Number of dice}-4]],1}kl1]]d6]]}} {{roll6=[[[[{[[?{Number of dice}-5]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-(?{Number of dice})]],1}kl1]]d6]], [[[[{[[1-(?{Number of dice})]],1}kl1]]d6]]}} {{notes=?{Notes}}}'>행운 판정</button>
 		</div>
 		<div class="sheet-col97 sheet-clocks sheet-def-margin">
-			<div class="sheet-specialheader sheet-label">Clocks</div>
+			<div class="sheet-specialheader sheet-label">진전 시계</div>
 			<fieldset class="repeating_clock">
-				<div class="sheet-clock"><input type="text" spellcheck="false" placeholder="Clock Name" name="attr_name" class="sheet-label"/><div class="sheet-clockprogress"><span>Size</span><input type="radio" name="attr_size" class="sheet-text-input sheet-longoption" value="4" checked/><span>4-segment</span><input type="radio" name="attr_size" class="sheet-text-input sheet-longoption" value="6"/><span>6-segment</span><input type="radio" name="attr_size" class="sheet-text-input sheet-longoption" value="8"/><span>8-segment</span><input type="radio" name="attr_size" class="sheet-text-input sheet-last sheet-longoption" value="12"/><span>12-segment</span><div class="sheet-4clock"><span>Progress</span><input type="radio" name="attr_clock1" class="sheet-text-input" value="0" checked/><span>0</span><input type="radio" name="attr_clock1" class="sheet-text-input" value="1"/><span>1</span><input type="radio" name="attr_clock1" class="sheet-text-input" value="2"/><span>2</span><input type="radio" name="attr_clock1" class="sheet-text-input" value="3"/><span>3</span><input type="radio" name="attr_clock1" class="sheet-text-input sheet-last" value="4"/><span>4</span><div class="sheet-clockpicture"></div></div><div class="sheet-6clock"><span>Progress</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="0" checked/><span>0</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="1"/><span>1</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="2"/><span>2</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="3"/><span>3</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="4"/><span>4</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="5"/><span>5</span><input type="radio" name="attr_clock2" class="sheet-text-input sheet-last" value="6"/><span>6</span><div class="sheet-clockpicture"></div></div><div class="sheet-8clock"><span>Progress</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="0" checked/><span>0</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="1"/><span>1</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="2"/><span>2</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="3"/><span>3</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="4"/><span>4</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="5"/><span>5</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="6"/><span>6</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="7"/><span>7</span><input type="radio" name="attr_clock3" class="sheet-text-input sheet-last" value="8"/><span>8</span><div class="sheet-clockpicture"></div></div><div class="sheet-12clock"><span>Progress</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="0" checked/><span>0</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="1"/><span>1</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="2"/><span>2</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="3"/><span>3</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="4"/><span>4</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="5"/><span>5</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="6"/><span>6</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="7"/><span>7</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="8"/><span>8</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="9"/><span>9</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="10"/><span>10</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="11"/><span>11</span><input type="radio" name="attr_clock4" class="sheet-text-input sheet-last" value="12"/><span>12</span><div class="sheet-clockpicture"></div></div></div>
+				<div class="sheet-clock"><input type="text" spellcheck="false" placeholder="시계 이름" name="attr_name" class="sheet-label"/><div class="sheet-clockprogress"><span>크기</span><input type="radio" name="attr_size" class="sheet-text-input sheet-longoption" value="4" checked/><span>4칸</span><input type="radio" name="attr_size" class="sheet-text-input sheet-longoption" value="6"/><span>6칸</span><input type="radio" name="attr_size" class="sheet-text-input sheet-longoption" value="8"/><span>8칸</span><input type="radio" name="attr_size" class="sheet-text-input sheet-last sheet-longoption" value="12"/><span>12칸</span><div class="sheet-4clock"><span>진척</span><input type="radio" name="attr_clock1" class="sheet-text-input" value="0" checked/><span>0</span><input type="radio" name="attr_clock1" class="sheet-text-input" value="1"/><span>1</span><input type="radio" name="attr_clock1" class="sheet-text-input" value="2"/><span>2</span><input type="radio" name="attr_clock1" class="sheet-text-input" value="3"/><span>3</span><input type="radio" name="attr_clock1" class="sheet-text-input sheet-last" value="4"/><span>4</span><div class="sheet-clockpicture"></div></div><div class="sheet-6clock"><span>Progress</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="0" checked/><span>0</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="1"/><span>1</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="2"/><span>2</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="3"/><span>3</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="4"/><span>4</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="5"/><span>5</span><input type="radio" name="attr_clock2" class="sheet-text-input sheet-last" value="6"/><span>6</span><div class="sheet-clockpicture"></div></div><div class="sheet-8clock"><span>Progress</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="0" checked/><span>0</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="1"/><span>1</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="2"/><span>2</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="3"/><span>3</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="4"/><span>4</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="5"/><span>5</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="6"/><span>6</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="7"/><span>7</span><input type="radio" name="attr_clock3" class="sheet-text-input sheet-last" value="8"/><span>8</span><div class="sheet-clockpicture"></div></div><div class="sheet-12clock"><span>Progress</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="0" checked/><span>0</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="1"/><span>1</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="2"/><span>2</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="3"/><span>3</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="4"/><span>4</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="5"/><span>5</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="6"/><span>6</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="7"/><span>7</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="8"/><span>8</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="9"/><span>9</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="10"/><span>10</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="11"/><span>11</span><input type="radio" name="attr_clock4" class="sheet-text-input sheet-last" value="12"/><span>12</span><div class="sheet-clockpicture"></div></div></div>
 				</div>
 			</fieldset>
 		</div>
-		<textarea spellcheck="false" class="sheet-notes" name="attr_notes" placeholder="Notes"></textarea>
+		<textarea spellcheck="false" class="sheet-notes" name="attr_notes" placeholder="메모"></textarea>
 	</div>
 </div>
 
@@ -737,57 +737,57 @@
 <div class="sheet-tab sheet-type-ship">
 	<div class="sheet-col30 sheet-scumlogo"></div>
 	<div class="sheet-playbook sheet-flex">
-		<input type="text" spellcheck="false" class="sheet-playbook-title sheet-label" name="attr_crew_type" placeholder="Ship"/>
-		<textarea spellcheck="false" name="attr_crew_description" class="sheet-playbook-desc sheet-label" placeholder="A short crew description"></textarea>
+		<input type="text" spellcheck="false" class="sheet-playbook-title sheet-label" name="attr_crew_type" placeholder="함선"/>
+		<textarea spellcheck="false" name="attr_crew_description" class="sheet-playbook-desc sheet-label" placeholder="짧은 일행 소개"></textarea>
 		<input type="checkbox" name="attr_show_playbook_reminder" class="sheet-hidden sheet-hidediv" value="1" checked>
 		<div class="sheet-reminder">
-			To generate crew abilities, upgrades, and contacts, enter the name of the playbook above: Stardancer, Cerberus, or Firedrake.
+			능력, 업그레이드, 연줄을 불러오려면 위 칸에 함선 이름을 입력하세요: 스타댄서, 케르베로스, 파이어드레이크.
 		</div>
 	</div>
 	<div class="sheet-col55">
 		<div class="sheet-header sheet-flex-wrap">
 			<div class="sheet-col55">
-				<input type="text" spellcheck="false" placeholder="Ship Designation" name="attr_ship_designation"/>
-				<div class="sheet-text sheet-label sheet-title">Designation</div>
+				<input type="text" spellcheck="false" placeholder="함선 명칭" name="attr_ship_designation"/>
+				<div class="sheet-text sheet-label sheet-title">명칭</div>
 			</div>
 			<div class="sheet-col45">
 				<input type="text" spellcheck="false" name="attr_reputation"/>
-				<div class="sheet-text sheet-label sheet-title">Reputation</div>
+				<div class="sheet-text sheet-label sheet-title">일행의 평판</div>
 			</div>
 			<div class="sheet-col100">
 				<input type="text" spellcheck="false" name="attr_lair"/>
-				<div class="sheet-text sheet-label sheet-title">Color / Look</div>
+				<div class="sheet-text sheet-label sheet-title">색깔/외관</div>
 			</div>
 		</div>
 		<div class="sheet-def-margin sheet-ship">
 			<div class="sheet-ship-toprow sheet-flex">
 				<div class="sheet-col18 sheet-ship-crew">
 					<div class="sheet-col100 sheet-blackheader sheet-flex">
-						<button type="roll" name="roll_crew" class="sheet-rollbutton sheet-crewbutton" value='&{template:bitd} {{charname=@{character_name}}} {{resist=1}} {{short=1}} {{title-crew=1}} {{subtitle=roll their}} {{roll1=[[[[{[[@{crew_quality}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{crew_quality}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{crew_quality}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{crew_quality}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{crew_quality}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{crew_quality}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{crew_quality}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{crew_quality}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{crew_quality}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{crew_quality}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{crew_quality}-@{bonusdice}]],1}kl1]]d6]]}}'>CREW</button>
+						<button type="roll" name="roll_crew" class="sheet-rollbutton sheet-crewbutton" value='&{template:bitd} {{charname=@{character_name}}} {{resist=1}} {{short=1}} {{title-crew=1}} {{subtitle=roll their}} {{roll1=[[[[{[[@{crew_quality}+@{bonusdice}}]],1}kl1]]d6]]}} {{roll2=[[[[{[[@{crew_quality}+@{bonusdice}-1}]],1}kl1]]d6]]}} {{roll3=[[[[{[[@{crew_quality}+@{bonusdice}-2}]],1}kl1]]d6]]}} {{roll4=[[[[{[[@{crew_quality}+@{bonusdice}-3}]],1}kl1]]d6]]}} {{roll5=[[[[{[[@{crew_quality}+@{bonusdice}-4}]],1}kl1]]d6]]}} {{roll6=[[[[{[[@{crew_quality}+@{bonusdice}-5}]],1}kl1]]d6]]}} {{roll7=[[[[{[[@{crew_quality}+@{bonusdice}-6}]],1}kl1]]d6]]}} {{roll8=[[[[{[[@{crew_quality}+@{bonusdice}-7}]],1}kl1]]d6]]}} {{roll9=[[[[{[[@{crew_quality}+@{bonusdice}-8}]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-@{crew_quality}-@{bonusdice}]],1}kl1]]d6]], [[[[{[[1-@{crew_quality}-@{bonusdice}]],1}kl1]]d6]]}}'>일행 수준</button>
 						<input type="radio" class="sheet-tooth sheet-zero" value="0" name="attr_crew_quality"/><span></span><input type="radio" class="sheet-tooth sheet-xptooth" value="1" name="attr_crew_quality"/><span></span><input type="radio" class="sheet-tooth sheet-xptooth" value="2" name="attr_crew_quality"/><span></span><input type="radio" class="sheet-tooth sheet-xptooth" value="3" name="attr_crew_quality"/><span></span>
 					</div>
 				</div>
 				<div class="sheet-col82 sheet-ship-size sheet-flex-layout">
-					<div class="sheet-col18 sheet-blackheader sheet-label">Ship Size</div>
+					<div class="sheet-col18 sheet-blackheader sheet-label">함선 크기</div>
 					<div class="sheet-col82 sheet-blackborder sheet-flex">
 						<label class="sheet-text-button">
-							<input type="checkbox" name="attr_ship_size" value="personal"><span>Personal</span>
+							<input type="checkbox" name="attr_ship_size" value="personal"><span>개인용</span>
 						</label>
 						<span>—</span>
 						<label class="sheet-text-button">
-							<input type="checkbox" name="attr_ship_size" value="freighter"><span>Freighter</span>
+							<input type="checkbox" name="attr_ship_size" value="freighter"><span>화물선</span>
 						</label>
 						<span>—</span>
 						<label class="sheet-text-button">
-							<input type="checkbox" name="attr_ship_size" value="corvette"><span>Corvette</span>
+							<input type="checkbox" name="attr_ship_size" value="corvette"><span>코르벳</span>
 						</label>
 						<span>—</span>
 						<label class="sheet-text-button">
-							<input type="checkbox" name="attr_ship_size" value="frigate"><span>Frigate</span>
+							<input type="checkbox" name="attr_ship_size" value="frigate"><span>프리깃</span>
 						</label>
 						<span>—</span>
 						<label class="sheet-text-button">
-							<input type="checkbox" name="attr_ship_size" value="dreadnaught"><span>Dreadnaught</span>
+							<input type="checkbox" name="attr_ship_size" value="dreadnaught"><span>드레드노트</span>
 						</label>
 					</div>
 				</div>
@@ -797,7 +797,7 @@
 				<!-- SYSTEM 1 -->
 				<div class="sheet-ship-system sheet-col31">
 					<div class="sheet-blackheader sheet-flex">
-						<input type="text" spellcheck="false" name="attr_system1_desc" class="sheet-label" placeholder="System 1"/>
+						<input type="text" spellcheck="false" name="attr_system1_desc" class="sheet-label" placeholder="시스템 1"/>
 						<div class="sheet-module-tick-box">
 							<div class="sheet-systemteeth">
 								<input type="radio" value="0" name="attr_sys1_mod" class="sheet-zero sheet-tooth" checked/><span></span><input type="radio" value="1" name="attr_sys1_mod" class="sheet-tooth sheet-modtooth"/><span></span><input type="radio" value="2" name="attr_sys1_mod" class="sheet-tooth sheet-modtooth"/><span></span><input type="radio" value="3" name="attr_sys1_mod" class="sheet-tooth sheet-modtooth"/><span></span><input type="radio" value="4" name="attr_sys1_mod" class="sheet-tooth sheet-modtooth"/><span></span>
@@ -831,8 +831,8 @@
 					<div class="sheet-ship-cred">
 						<div class="sheet-crewcred">
 							<div class="sheet-blackheader sheet-flex">
-								<div class="sheet-label">cred</div>
-								<div class="sheet-label">vault</div>
+								<div class="sheet-label">크레드</div>
+								<div class="sheet-label">저축</div>
 							</div>
 							<div class="sheet-creds sheet-flex-center">
 								<input type="radio" value="0" name="attr_crewcoin" class="sheet-zero" checked/><span></span><input type="radio" value="1" name="attr_crewcoin" class="sheet-radiobox"/><span></span><input type="radio" value="2" name="attr_crewcoin" class="sheet-radiobox"/><span></span><input type="radio" value="3" name="attr_crewcoin" class="sheet-radiobox"/><span></span><input type="radio" value="4" name="attr_crewcoin" class="sheet-radiobox"/><span></span>
@@ -841,7 +841,7 @@
 							</div>
 						</div>
 						<div class="sheet-crewcred">
-							<div class="sheet-blackheader sheet-label">Debt</div>
+							<div class="sheet-blackheader sheet-label">채무</div>
 							<div class="sheet-debt sheet-flex-center">
 								<input type="radio" value="0" name="attr_shipdebt" class="sheet-zero" checked/><span></span><input type="radio" value="1" name="attr_shipdebt" class="sheet-radiobox"/><span></span><input type="radio" value="2" name="attr_shipdebt" class="sheet-radiobox"/><span></span><input type="radio" value="3" name="attr_shipdebt" class="sheet-radiobox"/><span></span><input type="radio" value="4" name="attr_shipdebt" class="sheet-radiobox"/><span></span><input type="radio" value="5" name="attr_shipdebt" class="sheet-radiobox "/><span></span><input type="radio" value="6" name="attr_shipdebt" class="sheet-radiobox "/><span></span><input type="radio" value="7" name="attr_shipdebt" class="sheet-radiobox "/><span></span><input type="radio" value="8" name="attr_shipdebt" class="sheet-radiobox "/><span></span>
 							</div>
@@ -851,7 +851,7 @@
 				<!-- SYSTEM 2 -->
 				<div class="sheet-ship-system sheet-col31">
 					<div class="sheet-blackheader sheet-flex">
-						<input type="text" spellcheck="false" name="attr_system2_desc" class="sheet-label" placeholder="System 2"/>
+						<input type="text" spellcheck="false" name="attr_system2_desc" class="sheet-label" placeholder="시스템 2"/>
 						<div class="sheet-module-tick-box">
 							<div class="sheet-systemteeth">
 								<input type="radio" value="0" name="attr_sys2_mod" class="sheet-zero sheet-tooth" checked/><span></span><input type="radio" value="1" name="attr_sys2_mod" class="sheet-tooth sheet-modtooth"/><span></span><input type="radio" value="2" name="attr_sys2_mod" class="sheet-tooth sheet-modtooth"/><span></span><input type="radio" value="3" name="attr_sys2_mod" class="sheet-tooth sheet-modtooth"/><span></span><!-- STARDANCER FOURTH SYSTEM --><input type="checkbox" name="attr_setting_show_extra_sys2_mod_4" value="1" class="sheet-hidden sheet-toothhider" checked/><input type="radio" value="4" name="attr_sys2_mod" class="sheet-tooth sheet-modtooth"/><span></span>
@@ -882,9 +882,9 @@
 				</div>
 			</div>
 			<div class="sheet-col31 sheet-ship-gambits">
-				<div class="sheet-blackheader sheet-label">Gambits</div>
+				<div class="sheet-blackheader sheet-label">묘수</div>
 				<div class="sheet-ship-gambitexpo">
-					<span>Reset to <span class="sheet-label sheet-bold" placeholder="2" name="attr_defaultgambit"></span> gambits at the start of every job</span>
+					<span>임무 시작 때마다 묘수를 <span class="sheet-label sheet-bold" placeholder="2" name="attr_defaultgambit"></span>로 재설정</span>
 					<div class="sheet-creds sheet-gambits">
 						<input type="radio" value="0" name="attr_gambits" class="sheet-zero" checked/><span></span><input type="radio" value="1" name="attr_gambits" class="sheet-radiobox sheet-vaultcoin"/><span></span><input type="radio" value="2" name="attr_gambits" class="sheet-radiobox sheet-vaultcoin"/><span></span><input type="radio" value="3" name="attr_gambits" class="sheet-radiobox sheet-vaultcoin"/><span></span><input type="radio" value="4" name="attr_gambits" class="sheet-radiobox sheet-vaultcoin"/><span></span><input type="radio" value="5" name="attr_gambits" class="sheet-radiobox sheet-vaultcoin"/><span></span><input type="radio" value="6" name="attr_gambits" class="sheet-radiobox sheet-vaultcoin"/><span></span><input type="radio" value="7" name="attr_gambits" class="sheet-radiobox sheet-vaultcoin"/><span></span><input type="radio" value="8" name="attr_gambits" class="sheet-radiobox sheet-vaultcoin"/><span></span>
 					</div>
@@ -894,7 +894,7 @@
 				<!-- SYSTEM 3 -->
 				<div class="sheet-ship-system sheet-col31">
 					<div class="sheet-blackheader sheet-flex">
-						<input type="text" spellcheck="false" name="attr_system3_desc" class="sheet-label" placeholder="System 3"/>
+						<input type="text" spellcheck="false" name="attr_system3_desc" class="sheet-label" placeholder="시스템 3"/>
 						<div class="sheet-module-tick-box">
 							<div class="sheet-systemteeth">
 								<input type="radio" value="0" name="attr_sys3_mod" class="sheet-zero sheet-tooth" checked/><span></span><input type="radio" value="1" name="attr_sys3_mod" class="sheet-tooth sheet-modtooth"/><span></span><input type="radio" value="2" name="attr_sys3_mod" class="sheet-tooth sheet-modtooth"/><span></span><input type="radio" value="3" name="attr_sys3_mod" class="sheet-tooth sheet-modtooth"/><span></span>
@@ -922,15 +922,15 @@
 				<!-- SHIP UPKEEP AND SKIPS -->
 				<div class="sheet-ship-upkeep-skips sheet-col31">
 					<div class="sheet-ship-upkeep">
-						<div class="sheet-blackheader sheet-label">Upkeep</div>
+						<div class="sheet-blackheader sheet-label">유지비</div>
 						<div class="sheet-ship-upkeepexpo">
 							<input type="text" spellcheck="false" class="sheet-label sheet-bold" name="attr_upkeep" placeholder="___"></span>
-							<span>(Systems+Crew)/4 </span>
-							<span>paid at the start of every downtime.</span>
+							<span>(시스템+일행 수준)/4 </span>
+							<span>막간 시작 때마다 지불.</span>
 						</div>
 					</div>
 					<div class="sheet-blackheader sheet-skips sheet-flex">
-						<span class="sheet-label">Skips</span>
+						<span class="sheet-label">미납</span>
 						<div class="sheet-module-tick-box">
 							<input type="radio" value="0" name="attr_sys_skips" class="sheet-zero sheet-tooth" checked/><span></span><input type="radio" value="1" name="attr_sys_skips" class="sheet-tooth sheet-skiptooth"/><span></span><input type="radio" value="2" name="attr_sys_skips" class="sheet-tooth sheet-skiptooth"/><span></span><input type="radio" value="3" name="attr_sys_skips" class="sheet-tooth sheet-skiptooth"/><span></span><input type="radio" value="4" name="attr_sys_skips" class="sheet-tooth sheet-skiptooth"/><span></span>
 						</div>
@@ -939,7 +939,7 @@
 				<!-- SYSTEM 4-->
 				<div class="sheet-ship-system sheet-col31">
 					<div class="sheet-blackheader sheet-flex">
-						<input type="text" spellcheck="false" name="attr_system4_desc" class="sheet-label" placeholder="System 4"/>
+						<input type="text" spellcheck="false" name="attr_system4_desc" class="sheet-label" placeholder="시스템 4"/>
 						<div class="sheet-module-tick-box">
 							<div class="sheet-systemteeth">
 								<input type="radio" value="0" name="attr_sys4_mod" class="sheet-zero sheet-tooth" checked/><span></span><input type="radio" value="1" name="attr_sys4_mod" class="sheet-tooth sheet-modtooth"/><span></span><input type="radio" value="2" name="attr_sys4_mod" class="sheet-tooth sheet-modtooth"/><span></span>
@@ -971,47 +971,47 @@
 		</div>
 		<div class="sheet-def-margin">
 			<div class="sheet-col97 sheet-clocks">
-				<div class="sheet-specialheader sheet-label">Clocks</div>
+				<div class="sheet-specialheader sheet-label">진전 시계</div>
 				<fieldset class="repeating_crewclock">
-					<div class="sheet-clock"><input type="text" spellcheck="false" placeholder="Clock Name" name="attr_name" class="sheet-label"/><div class="sheet-clockprogress"><span>Size</span><input type="radio" name="attr_size" class="sheet-text-input sheet-longoption" value="4" checked/><span>4-segment</span><input type="radio" name="attr_size" class="sheet-text-input sheet-longoption" value="6"/><span>6-segment</span><input type="radio" name="attr_size" class="sheet-text-input sheet-longoption" value="8"/><span>8-segment</span><input type="radio" name="attr_size" class="sheet-text-input sheet-last sheet-longoption" value="12"/><span>12-segment</span><div class="sheet-4clock"><span>Progress</span><input type="radio" name="attr_clock1" class="sheet-text-input" value="0" checked/><span>0</span><input type="radio" name="attr_clock1" class="sheet-text-input" value="1"/><span>1</span><input type="radio" name="attr_clock1" class="sheet-text-input" value="2"/><span>2</span><input type="radio" name="attr_clock1" class="sheet-text-input" value="3"/><span>3</span><input type="radio" name="attr_clock1" class="sheet-text-input sheet-last" value="4"/><span>4</span><div class="sheet-clockpicture"></div></div><div class="sheet-6clock"><span>Progress</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="0" checked/><span>0</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="1"/><span>1</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="2"/><span>2</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="3"/><span>3</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="4"/><span>4</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="5"/><span>5</span><input type="radio" name="attr_clock2" class="sheet-text-input sheet-last" value="6"/><span>6</span><div class="sheet-clockpicture"></div></div><div class="sheet-8clock"><span>Progress</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="0" checked/><span>0</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="1"/><span>1</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="2"/><span>2</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="3"/><span>3</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="4"/><span>4</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="5"/><span>5</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="6"/><span>6</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="7"/><span>7</span><input type="radio" name="attr_clock3" class="sheet-text-input sheet-last" value="8"/><span>8</span><div class="sheet-clockpicture"></div></div><div class="sheet-12clock"><span>Progress</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="0" checked/><span>0</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="1"/><span>1</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="2"/><span>2</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="3"/><span>3</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="4"/><span>4</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="5"/><span>5</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="6"/><span>6</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="7"/><span>7</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="8"/><span>8</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="9"/><span>9</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="10"/><span>10</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="11"/><span>11</span><input type="radio" name="attr_clock4" class="sheet-text-input sheet-last" value="12"/><span>12</span><div class="sheet-clockpicture"></div></div></div>
+					<div class="sheet-clock"><input type="text" spellcheck="false" placeholder="시계 이름" name="attr_name" class="sheet-label"/><div class="sheet-clockprogress"><span>크기</span><input type="radio" name="attr_size" class="sheet-text-input sheet-longoption" value="4" checked/><span>4칸</span><input type="radio" name="attr_size" class="sheet-text-input sheet-longoption" value="6"/><span>6칸</span><input type="radio" name="attr_size" class="sheet-text-input sheet-longoption" value="8"/><span>8칸</span><input type="radio" name="attr_size" class="sheet-text-input sheet-last sheet-longoption" value="12"/><span>12칸</span><div class="sheet-4clock"><span>진척</span><input type="radio" name="attr_clock1" class="sheet-text-input" value="0" checked/><span>0</span><input type="radio" name="attr_clock1" class="sheet-text-input" value="1"/><span>1</span><input type="radio" name="attr_clock1" class="sheet-text-input" value="2"/><span>2</span><input type="radio" name="attr_clock1" class="sheet-text-input" value="3"/><span>3</span><input type="radio" name="attr_clock1" class="sheet-text-input sheet-last" value="4"/><span>4</span><div class="sheet-clockpicture"></div></div><div class="sheet-6clock"><span>Progress</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="0" checked/><span>0</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="1"/><span>1</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="2"/><span>2</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="3"/><span>3</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="4"/><span>4</span><input type="radio" name="attr_clock2" class="sheet-text-input" value="5"/><span>5</span><input type="radio" name="attr_clock2" class="sheet-text-input sheet-last" value="6"/><span>6</span><div class="sheet-clockpicture"></div></div><div class="sheet-8clock"><span>Progress</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="0" checked/><span>0</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="1"/><span>1</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="2"/><span>2</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="3"/><span>3</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="4"/><span>4</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="5"/><span>5</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="6"/><span>6</span><input type="radio" name="attr_clock3" class="sheet-text-input" value="7"/><span>7</span><input type="radio" name="attr_clock3" class="sheet-text-input sheet-last" value="8"/><span>8</span><div class="sheet-clockpicture"></div></div><div class="sheet-12clock"><span>Progress</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="0" checked/><span>0</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="1"/><span>1</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="2"/><span>2</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="3"/><span>3</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="4"/><span>4</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="5"/><span>5</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="6"/><span>6</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="7"/><span>7</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="8"/><span>8</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="9"/><span>9</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="10"/><span>10</span><input type="radio" name="attr_clock4" class="sheet-text-input" value="11"/><span>11</span><input type="radio" name="attr_clock4" class="sheet-text-input sheet-last" value="12"/><span>12</span><div class="sheet-clockpicture"></div></div></div>
 					</div>
 				</fieldset>
 			</div>
 		</div>
-		<textarea spellcheck="false" class="sheet-notes" name="attr_notes" placeholder="Notes"></textarea>
+		<textarea spellcheck="false" class="sheet-notes" name="attr_notes" placeholder="메모"></textarea>
 	</div>
 	<div class="sheet-col45 sheet-flex-wrap">
 		<!-- SHIP ABILITIES -->
 		<div class="sheet-crewabilities sheet-col100">
-			<div class="sheet-specialheader sheet-label">Special Abilities</div>
+			<div class="sheet-specialheader sheet-label">특수 능력</div>
 			<fieldset class="repeating_crewability">
 				<div class="sheet-specialability sheet-flex-layout sheet-rep-block">
 					<input type="checkbox" name="attr_check" value="1" class="sheet-triangle"/><span></span>
 					<div class="sheet-auto-expand sheet-abilityname">
 						<span name="attr_name"></span>
-						<textarea spellcheck="false" name="attr_name" placeholder="Ability Name"></textarea>
+						<textarea spellcheck="false" name="attr_name" placeholder="능력 이름"></textarea>
 					</div>
 					<div class="sheet-auto-expand sheet-abilitydesc">
 						<span name="attr_description"></span>
-						<textarea spellcheck="false" name="attr_description"  placeholder="Ability description"></textarea>
+						<textarea spellcheck="false" name="attr_description"  placeholder="능력 설명"></textarea>
 					</div>
 				</div>
 			</fieldset>
 		</div>
 		<div class="sheet-col50b">
 			<div class="sheet-loadheader">
-				<span class="sheet-label">Crew/Ship Upgrades</span>
+				<span class="sheet-label">일행/함선 엄그레이드</span>
 			</div>
 			<div class="sheet-itemholder sheet-white-repcontrol sheet-upgrades">
 				<div class="sheet-playbookitems">
 					<fieldset class="repeating_upgrade">
 						<input class="sheet-hidden sheet-boxes-chosen" type="checkbox" name="attr_boxes_chosen" value="1"/>
 						<div class="sheet-item sheet-numboxes-chooser">
-							<div>How many boxes?</div>
+							<div>몇칸?</div>
 							<input type="number" name="attr_numboxes" min="0" max="3" value="1"/>
 							<label>
 								<input type="checkbox" class="sheet-boxes-chosen" name="attr_boxes_chosen" value="1"/>
-								<span class="sheet-okbutton">OK</span>
+								<span class="sheet-okbutton">확인</span>
 							</label>
 						</div>
 						<div class="sheet-item">
@@ -1024,76 +1024,76 @@
 							<input class="sheet-checkbox sheet-boxesgeq2 sheet-boxesgeq3" type="checkbox" name="attr_check3" value="1"/><span class="sheet-boxesgeq2 sheet-boxesgeq3"></span>
 							<div class="sheet-auto-expand sheet-itemname">
 								<span name="attr_name"></span>
-								<textarea spellcheck="false" name="attr_name" placeholder="A ship upgrade"></textarea>
+								<textarea spellcheck="false" name="attr_name" placeholder="함선 업그레이드"></textarea>
 							</div>
 						</div>
 					</fieldset>
 				</div>
 				<div class="sheet-regularitems sheet-flex-wrap">
 					<div class="sheet-col50">
-						<div class="sheet-item"><span class="sheet-label">Auxiliary</span></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_1_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="AI Module" name="attr_upgrade_1_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_2_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Armory" name="attr_upgrade_2_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_3_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Brig" name="attr_upgrade_3_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_4_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Galley" name="attr_upgrade_4_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_5_check1" value="1" class="sheet-checkbox"/><span></span><span class="sheet-floatingbar"></span><input type="checkbox" name="attr_upgrade_5_check2" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Shields" name="attr_upgrade_5_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_6_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Medical Bay" name="attr_upgrade_6_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_7_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Science Bay" name="attr_upgrade_7_name"/></div>
+						<div class="sheet-item"><span class="sheet-label">보조</span></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_7_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="과학실" name="attr_upgrade_7_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_3_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="구금실" name="attr_upgrade_3_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_2_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="무기고" name="attr_upgrade_2_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_5_check1" value="1" class="sheet-checkbox"/><span></span><span class="sheet-floatingbar"></span><input type="checkbox" name="attr_upgrade_5_check2" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="실드" name="attr_upgrade_5_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_6_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="의무실" name="attr_upgrade_6_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_4_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="주방" name="attr_upgrade_4_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_1_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="AI 모듈" name="attr_upgrade_1_name"/></div>
 					</div>
 					<div class="sheet-col50">
-						<div class="sheet-item"><span class="sheet-label">Ship Gear</span></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_8_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Holo Emiters" name="attr_upgrade_8_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_9_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Intruder Alarm" name="attr_upgrade_9_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_10_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Land Rover" name="attr_upgrade_10_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_11_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Power Reserves" name="attr_upgrade_11_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_12_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Shuttle" name="attr_upgrade_12_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_13_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Stasis Pods" name="attr_upgrade_13_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_14_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Vault" name="attr_upgrade_14_name"/></div>
+						<div class="sheet-item"><span class="sheet-label">함선 업그레이드</span></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_14_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="금고" name="attr_upgrade_14_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_13_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="동면 캡슐" name="attr_upgrade_13_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_10_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="로버" name="attr_upgrade_10_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_11_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="보조 동력원" name="attr_upgrade_11_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_12_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="셔틀" name="attr_upgrade_12_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_9_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="침입자 경보" name="attr_upgrade_9_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_8_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="홀로그램 생성기" name="attr_upgrade_8_name"/></div>
 					</div>
 					<div class="sheet-col50">
-						<div class="sheet-item sheet-upgradecaption"><span class="sheet-label">Training</span></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_15_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Insight" name="attr_upgrade_15_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_16_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Prowess" name="attr_upgrade_16_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_17_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Resolve" name="attr_upgrade_17_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_18_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Personal" name="attr_upgrade_18_name"/></div>
+						<div class="sheet-item sheet-upgradecaption"><span class="sheet-label">훈련</span></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_15_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="통찰" name="attr_upgrade_15_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_16_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="체력" name="attr_upgrade_16_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_17_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="의지" name="attr_upgrade_17_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_18_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="플레이북" name="attr_upgrade_18_name"/></div>
 					</div>
 					<div class="sheet-col50">
-						<div class="sheet-item sheet-upgradecaption"><span class="sheet-label">Crew Gear</span></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_19_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Alien Pet" name="attr_upgrade_19_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_20_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Ground Vehicles" name="attr_upgrade_20_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_21_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Recon Drone" name="attr_upgrade_21_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_22_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Survival Gear" name="attr_upgrade_22_name"/></div>
-						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_23_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="Workshop" name="attr_upgrade_23_name"/></div>
+						<div class="sheet-item sheet-upgradecaption"><span class="sheet-label">일행 장비</span></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_23_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="공방" name="attr_upgrade_23_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_22_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="생존 장비" name="attr_upgrade_22_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_19_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="외계 생물" name="attr_upgrade_19_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_21_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="정찰 드론" name="attr_upgrade_21_name"/></div>
+						<div class="sheet-item"><input type="checkbox" name="attr_upgrade_20_check" value="1" class="sheet-checkbox"/><span></span><input type="text" spellcheck="false" class="sheet-itemname" value="지상 탈것" name="attr_upgrade_20_name"/></div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="sheet-col50a">
 			<div class="sheet-contacts">
-				<div class="sheet-specialheader sheet-label">Contacts</div>
+				<div class="sheet-specialheader sheet-label">연줄</div>
 				<fieldset class="repeating_contact">
 					<div class="sheet-contact sheet-flex-center sheet-rep-block">
 						<input type="checkbox" name="attr_check" value="1" class="sheet-triangle"/><span></span>
-						<div class="sheet-auto-expand"><span name="attr_name"></span><textarea spellcheck="false" name="attr_name" placeholder="Contact name"></textarea></div>
+						<div class="sheet-auto-expand"><span name="attr_name"></span><textarea spellcheck="false" name="attr_name" placeholder="연줄 이름"></textarea></div>
 					</div>
 				</fieldset>
 			</div>
-			<button type="roll" name="roll_Fortune" class="sheet-fortunebutton" value='&{template:bitd} {{charname=@{character_name}}} {{fortune=1}} {{subtitle=rolls}} {{title-fortune=1}} {{roll1=[[[[{?{Number of dice|0|1|2|3|4|5|6},1}kl1]]d6]]}} {{roll2=[[[[{[[?{Number of dice}]]-1,1}kl1]]d6]]}} {{roll3=[[[[{[[?{Number of dice}-2]],1}kl1]]d6]]}} {{roll4=[[[[{[[?{Number of dice}-3]],1}kl1]]d6]]}} {{roll5=[[[[{[[?{Number of dice}-4]],1}kl1]]d6]]}} {{roll6=[[[[{[[?{Number of dice}-5]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-(?{Number of dice})]],1}kl1]]d6]], [[[[{[[1-(?{Number of dice})]],1}kl1]]d6]]}} {{notes=?{Notes}}}'>Roll Fortune</button>
+			<button type="roll" name="roll_Fortune" class="sheet-fortunebutton" value='&{template:bitd} {{charname=@{character_name}}} {{fortune=1}} {{subtitle=rolls}} {{title-fortune=1}} {{roll1=[[[[{?{Number of dice|0|1|2|3|4|5|6},1}kl1]]d6]]}} {{roll2=[[[[{[[?{Number of dice}]]-1,1}kl1]]d6]]}} {{roll3=[[[[{[[?{Number of dice}-2]],1}kl1]]d6]]}} {{roll4=[[[[{[[?{Number of dice}-3]],1}kl1]]d6]]}} {{roll5=[[[[{[[?{Number of dice}-4]],1}kl1]]d6]]}} {{roll6=[[[[{[[?{Number of dice}-5]],1}kl1]]d6]]}} {{zerodice=[[[[{[[1-(?{Number of dice})]],1}kl1]]d6]], [[[[{[[1-(?{Number of dice})]],1}kl1]]d6]]}} {{notes=?{Notes}}}'>행운 판정</button>
 		</div>
 		<div class="sheet-advancement">
 			<div class="sheet-advancement-header sheet-flex sheet-blackheader">
-				<div class="sheet-label">Mark XP:</div>
-				<div class="sheet-label">Playbook Advancement</div>
+				<div class="sheet-label">일행 XP:</div>
+				<div class="sheet-label">플레이북 성장</div>
 				<div class="sheet-advancement-xpholder">
 					<input type="radio" value="0" name="attr_crew_xp" class="sheet-tooth sheet-zero" checked/><span></span><input type="radio" value="1" name="attr_crew_xp" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="2" name="attr_crew_xp" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="3" name="attr_crew_xp" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="4" name="attr_crew_xp" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="5" name="attr_crew_xp" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="6" name="attr_crew_xp" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="7" name="attr_crew_xp" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="8" name="attr_crew_xp" class="sheet-tooth sheet-xptooth"/><span></span>
 				</div>
 			</div>
 			<ul class="sheet-advancement-desc">
-				<li class="sheet-nondot">At the end of each session, for each item below, mark 1 xp (or instead mark 2 xp if that item occurred multiple times).</li>
-				<li><input type="text" spellcheck="false" placeholder="Enter your crew's specific way to mark XP here." name="attr_crew_xp_condition"/></li><input type="checkbox" name="attr_setting_extra_xp" value="1" class="sheet-hidden sheet-xp-hider"/>
-				<li><input type="text" spellcheck="false" placeholder="Enter another specific way to mark XP here." name="attr_xp_condition_extra"/></li>
-				<li>Contend with challenges above your current station.</li><li>Bolster your crew's reputation or develop a new one.</li>
-				<li>Express the goals, drives, inner conflict, or essential nature of the crew.</li>
+				<li class="sheet-nondot">세션이 끝났을 때, 아래 xp 발생 조건을 검토하고 해당되는 것마다 1xp를 받습니다. 많이 일어난 항목은 1xp를 더해 총 2xp를 받습니다.</li>
+				<li><input type="text" spellcheck="false" placeholder="일행 유형의 고유 xp 발생 조건을 적으세요." name="attr_crew_xp_condition"/></li><input type="checkbox" name="attr_setting_extra_xp" value="1" class="sheet-hidden sheet-xp-hider"/>
+				<li><input type="text" spellcheck="false" placeholder="일행 유형의 고유 xp 발생 조건을 적으세요." name="attr_xp_condition_extra"/></li>
+				<li>자기 주제를 넘는 난관을 상대한 경우.</li><li>일행의 평판을 강화했거나 새로운 평판을 얻은 경우.</li>
+				<li>일행의 목표, 동기, 내적 갈등, 본질을 표현한 경우.</li>
 			</ul>
 		</div>
 	</div>
@@ -1111,13 +1111,13 @@
 			<input type="text"  spellcheck="false" value="Rin" class="sheet-label" name="attr_system1" />
 			<div class="sheet-col100 sheet-heat sheet-flex-layout">
 				<div class="sheet-blackheader sheet-heat1">
-					<div class="sheet-label">Heat</div>
+					<div class="sheet-label">열기</div>
 				</div>
 				<div class="sheet-blackheader sheet-heat2">
 					<input type="radio" value="0" name="attr_heat1" class="sheet-tooth sheet-zero" checked/><span></span><input type="radio" value="1" name="attr_heat1" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="2" name="attr_heat1" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="3" name="attr_heat1" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="4" name="attr_heat1" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="5" name="attr_heat1" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="6" name="attr_heat1" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="7" name="attr_heat1" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="8" name="attr_heat1" class="sheet-tooth sheet-xptooth"/><span></span>
 				</div>
 				<div class="sheet-heat3">
-					<div class="sheet-blackheader sheet-label">Wanted</div>
+					<div class="sheet-blackheader sheet-label">수배</div>
 					<!-- TRAUMA DON'T SPACE OUT -->
 					<div class="sheet-wantedholder sheet-flex">
 						<input type="radio" value="0" name="attr_wanted1" class="sheet-tooth sheet-zero" checked/><span></span><input type="radio" value="1" name="attr_wanted1" class="sheet-tooth sheet-regulartooth"/><span></span><input type="radio" value="2" name="attr_wanted1" class="sheet-tooth sheet-regulartooth"/><span></span><input type="radio" value="3" name="attr_wanted1" class="sheet-tooth sheet-regulartooth"/><span></span><input type="radio" value="4" name="attr_wanted1" class="sheet-tooth sheet-regulartooth"/><span></span>
@@ -1131,13 +1131,13 @@
 			<input type="text" spellcheck="false" value="Holt" class="sheet-label" name="attr_system2" />
 			<div class="sheet-col100 sheet-heat sheet-flex-layout">
 				<div class="sheet-blackheader sheet-heat1">
-					<div class="sheet-label">Heat</div>
+					<div class="sheet-label">열기</div>
 				</div>
 				<div class="sheet-blackheader sheet-heat2">
 					<input type="radio" value="0" name="attr_heat2" class="sheet-tooth sheet-zero" checked/><span></span><input type="radio" value="1" name="attr_heat2" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="2" name="attr_heat2" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="3" name="attr_heat2" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="4" name="attr_heat2" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="5" name="attr_heat2" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="6" name="attr_heat2" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="7" name="attr_heat2" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="8" name="attr_heat2" class="sheet-tooth sheet-xptooth"/><span></span>
 				</div>
 				<div class="sheet-heat3">
-					<div class="sheet-blackheader sheet-label">Wanted</div>
+					<div class="sheet-blackheader sheet-label">수배</div>
 					<!-- TRAUMA DON'T SPACE OUT -->
 					<div class="sheet-wantedholder sheet-flex">
 						<input type="radio" value="0" name="attr_wanted2" class="sheet-tooth sheet-zero" checked/><span></span><input type="radio" value="1" name="attr_wanted2" class="sheet-tooth sheet-regulartooth"/><span></span><input type="radio" value="2" name="attr_wanted2" class="sheet-tooth sheet-regulartooth"/><span></span><input type="radio" value="3" name="attr_wanted2" class="sheet-tooth sheet-regulartooth"/><span></span><input type="radio" value="4" name="attr_wanted2" class="sheet-tooth sheet-regulartooth"/><span></span>
@@ -1151,13 +1151,13 @@
 			<input type="text" spellcheck="false" value="Iota" class="sheet-label" name="attr_system3" />
 			<div class="sheet-col100 sheet-heat sheet-flex-layout">
 				<div class="sheet-blackheader sheet-heat1">
-					<div class="sheet-label">Heat</div>
+					<div class="sheet-label">열기</div>
 				</div>
 				<div class="sheet-blackheader sheet-heat2">
 					<input type="radio" value="0" name="attr_heat3" class="sheet-tooth sheet-zero" checked/><span></span><input type="radio" value="1" name="attr_heat3" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="2" name="attr_heat3" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="3" name="attr_heat3" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="4" name="attr_heat3" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="5" name="attr_heat3" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="6" name="attr_heat3" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="7" name="attr_heat3" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="8" name="attr_heat3" class="sheet-tooth sheet-xptooth"/><span></span>
 				</div>
 				<div class="sheet-heat3">
-					<div class="sheet-blackheader sheet-label">Wanted</div>
+					<div class="sheet-blackheader sheet-label">수배</div>
 					<!-- TRAUMA DON'T SPACE OUT -->
 					<div class="sheet-wantedholder sheet-flex">
 						<input type="radio" value="0" name="attr_wanted3" class="sheet-tooth sheet-zero" checked/><span></span><input type="radio" value="1" name="attr_wanted3" class="sheet-tooth sheet-regulartooth"/><span></span><input type="radio" value="2" name="attr_wanted3" class="sheet-tooth sheet-regulartooth"/><span></span><input type="radio" value="3" name="attr_wanted3" class="sheet-tooth sheet-regulartooth"/><span></span><input type="radio" value="4" name="attr_wanted3" class="sheet-tooth sheet-regulartooth"/><span></span>
@@ -1171,13 +1171,13 @@
 			<input type="text" spellcheck="false" value="Brekk" class="sheet-label" name="attr_system4" />
 			<div class="sheet-col100 sheet-heat sheet-flex-layout">
 				<div class="sheet-blackheader sheet-heat1">
-					<div class="sheet-label">Heat</div>
+					<div class="sheet-label">열기</div>
 				</div>
 				<div class="sheet-blackheader sheet-heat2">
 					<input type="radio" value="0" name="attr_heat4" class="sheet-tooth sheet-zero" checked/><span></span><input type="radio" value="1" name="attr_heat4" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="2" name="attr_heat4" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="3" name="attr_heat4" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="4" name="attr_heat4" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="5" name="attr_heat4" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="6" name="attr_heat4" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="7" name="attr_heat4" class="sheet-tooth sheet-xptooth"/><span></span><input type="radio" value="8" name="attr_heat4" class="sheet-tooth sheet-xptooth"/><span></span>
 				</div>
 				<div class="sheet-heat3">
-					<div class="sheet-blackheader sheet-label">Wanted</div>
+					<div class="sheet-blackheader sheet-label">수배</div>
 					<!-- TRAUMA DON'T SPACE OUT -->
 					<div class="sheet-wantedholder sheet-flex">
 						<input type="radio" value="0" name="attr_wanted4" class="sheet-tooth sheet-zero" checked/><span></span><input type="radio" value="1" name="attr_wanted4" class="sheet-tooth sheet-regulartooth"/><span></span><input type="radio" value="2" name="attr_wanted4" class="sheet-tooth sheet-regulartooth"/><span></span><input type="radio" value="3" name="attr_wanted4" class="sheet-tooth sheet-regulartooth"/><span></span><input type="radio" value="4" name="attr_wanted4" class="sheet-tooth sheet-regulartooth"/><span></span>
@@ -1190,11 +1190,11 @@
 	<!-- FACTIONS -->
 	<div class="sheet-factiontitle sheet-flex">
 		<input class="sheet-label" type="text" name="attr_factions_title" value="Factions"/>
-		<label class="sheet-faction-generatebutton"><input type="checkbox" name="attr_generate_factions"/><span>Generate Factions</span></label>
+		<label class="sheet-faction-generatebutton"><input type="checkbox" name="attr_generate_factions"/><span>파벌 불러오기</span></label>
 	</div>
 	<div class="sheet-flex-layout">
 		<div class="sheet-col24b sheet-white-repcontrol">
-			<div class="sheet-factions-header sheet-flex-center sheet-label"><input class="sheet-label" type="text" name="attr_factions1_header" value="Hegemony"/><span>Tier</span><span>Status</span><span>Jobs</span></div>
+			<div class="sheet-factions-header sheet-flex-center sheet-label"><input class="sheet-label" type="text" name="attr_factions1_header" value="Hegemony"/><span>등급</span><span>호감</span><span>임무</span></div>
 			<fieldset class="repeating_factions1">
 				<div class="sheet-faction sheet-flex-wrap">
 					<input type="checkbox" name="attr_expand" value="1" class="sheet-expand"/><span></span>
@@ -1204,7 +1204,7 @@
 			</fieldset>
 		</div>
 		<div class="sheet-col24b sheet-white-repcontrol">
-			<div class="sheet-factions-header sheet-flex-center sheet-label"><input class="sheet-label" type="text" name="attr_factions2_header" value="Criminal Syndicates"/><span>Tier</span><span>Status</span><span>Jobs</span></div>
+			<div class="sheet-factions-header sheet-flex-center sheet-label"><input class="sheet-label" type="text" name="attr_factions2_header" value="Criminal Syndicates"/><span>등급</span><span>호감</span><span>임무</span></div>
 			<fieldset class="repeating_factions2">
 				<div class="sheet-faction sheet-flex-wrap">
 					<input type="checkbox" name="attr_expand" value="1" class="sheet-expand"/><span></span>
@@ -1214,7 +1214,7 @@
 			</fieldset>
 		</div>
 		<div class="sheet-col24b sheet-white-repcontrol">
-			<div class="sheet-factions-header sheet-flex-center sheet-label"><input class="sheet-label" type="text" name="attr_factions3_header" value="Weirdness"/><span>Tier</span><span>Status</span><span>Jobs</span></div>
+			<div class="sheet-factions-header sheet-flex-center sheet-label"><input class="sheet-label" type="text" name="attr_factions3_header" value="Weirdness"/><span>등급</span><span>호감</span><span>임무</span></div>
 			<fieldset class="repeating_factions3">
 				<div class="sheet-faction sheet-flex-wrap">
 					<input type="checkbox" name="attr_expand" value="1" class="sheet-expand"/><span></span>
@@ -1225,21 +1225,21 @@
 		</div>
 		<div class="sheet-col24b sheet-white-repcontrol">
 			<div class="sheet-warblurb">
-				<div class="sheet-label">Jobs</div>
+				<div class="sheet-label">임무</div>
 				<ul>
-					<li class="sheet-nondot">If you take on a mission given by a faction, you may gain status with that faction depending on your current status with them and the number of jobs you've done for them since your status last changed.</li>
-					<li>Advancing from status -1 to 0: 1 job</li>
-					<li>Advancing from status 0 to 1: 1 job</li>
-					<li>Advancing from status 1 to 2: 2 jobs</li>
-					<li>Advancing from status 2 to 3: 3 jobs</li>
+					<li class="sheet-nondot">세력으로부터 임무를 받으면 그 세력의 호감 수치와 그동안 받은 임무의 숫자에 따라 추가적인 호감을 얻을 수 있습니다.</li>
+					<li>호감 -1 에서 0으로: 임무 1개</li>
+					<li>호감 0 에서 1으로: 임무 1개</li>
+					<li>호감 1 에서 2으로: 임무 2개</li>
+					<li>호감 2 에서 3으로: 임무 3개</li>
 				</ul>
 			</div>
 			<div class="sheet-warblurb">
-				<div class="sheet-label">War</div>
+				<div class="sheet-label">전쟁</div>
 				<ul>
-					<li class="sheet-nondot">When you're at war with any number of factions (status -3), the following penalties apply:</li>
-					<li>Your Crew suffers +1 Heat from jobs</li>
-					<li>PCs get only 1 downtime activity rather than 2</li>
+					<li class="sheet-nondot">하나 이상의 파벌과 전쟁 중일 경우(호감 -3) 다음 페널티를 받습니다:</li>
+					<li>임무에서 열기에 +1을 받습니다.</li>
+					<li>막간 활동을 2회 대신 1회만 할 수 있습니다.</li>
 				</ul>
 			</div>
 		</div>
@@ -1303,697 +1303,697 @@
 <script type="text/worker">
 	/* Data */
 	const shipData = {
-			stardancer: {
+			스타댄서: {
 				base: {
-					crew_description: 'illicit merchants, \nsmugglers, \nand blockade runners',
-					crew_xp_condition: 'Execute a successful transport or smuggling operation.',
-					ship_designation: 'CF-350 Series Scarab-class Freighter',
-					ship_size: 'freighter',
+					crew_description: '불법 상인, 밀수꾼, \n봉쇄 돌파 전문가',
+					crew_xp_condition: '운송이나 밀수 작전에 성공한 경우.',
+					ship_designation: 'CF-350 시리즈 스캐럽급 화물선',
+					ship_size: '화물선',
 					sys1_mod: '2',
 					sys1_mod_1_check: '1',
-					sys1_mod_1_desc: 'Smuggling Compartments',
+					sys1_mod_1_desc: '밀수용 창고',
 					sys1_mod_2_check: '1',
-					sys1_mod_2_desc: 'Cargo Hold',
+					sys1_mod_2_desc: '선창',
 					sys2_mod: '1',
 					sys2_mod_1_check: '1',
-					sys2_mod_1_desc: 'Jump Drive',
-					sys2_mod_2_desc: 'Afterburners',
-					sys3_mod_1_desc: 'Fake Transponder',
-					sys3_mod_2_desc: 'Quantum Encryptor',
-					system1_desc: 'hull',
-					system2_desc: 'engines',
-					system3_desc: 'comms',
-					system4_desc: 'weapons',
+					sys2_mod_1_desc: '점프 드라이브',
+					sys2_mod_2_desc: '애프터버너',
+					sys3_mod_1_desc: '양자 암호화 장치',
+					sys3_mod_2_desc: '위장 신호 송출기',
+					system1_desc: '선체',
+					system2_desc: '엔진',
+					system3_desc: '통신',
+					system4_desc: '무장',
 					upgrade_4_check: '1'
 				},
 				crewability: [
 					{
-						name: 'The Getaway',
-						description: 'You gain potency when you scramble or helm to avoid capture or run a blockade. When doing a delivery job, take +1d to the engagement roll.'
+						name: '튀어',
+						description: '봉쇄를 뚫거나 체포를 피하기 위한 기동 및 조타 판정을 할 때 위력을 얻습니다. 배달 임무를 할 때는 접근 판정에 +1d를 받습니다.'
 					},
 					{
-						name: 'Cargo Eye',
-						description: 'Your crew gains +1 cred for smuggling or delivery jobs. Whenever you gather info you can always ask, "What is most valuable here?"'
+						name: '화물 보는 눈',
+						description: '일행은 밀수 또는 배달 임무에서 +1 크레드를 더 법니다. 정보 수집을 할 때면 언제나 “여기서 가장 가치 있는 것은 무엇인가?”를 물을 수 있습니다.'
 					},
 					{
-						name: 'Field Repairs',
-						description: 'You gain potency when repairing your ship while in space. If you spend a gambit on a rig roll, you gain +2d (instead of +1d).'
+						name: '현장 수리',
+						description: '배가 우주에 있는 동안 수리를 할 때 위력을 얻습니다. 공작 판정에 묘수를 쓰면 +1d가 아니라 +2d를 얻습니다.'
 					},
 					{
-						name: 'Leverage',
-						description: 'Your crew knows how to pull strings and cash in favors. When you lay low, instead of rolling you can take -1 status with a faction at Helpful (+1) or better to reduce your wanted level by 1, and set your heat to 0 in a system.'
+						name: '빚 거두기',
+						description: '연줄을 이용하고 베푼 은혜의 수확을 거두는 법을 압니다. 몸 사리기를 할 때, 주사위를 굴리지 않고 친근 (+1) 이상인 파벌의 호감을 -1 낮추면 수배 단계를 하나 낮추고, 그 항성계에서의 열기를 0으로 떨어뜨릴 수 있습니다.'
 					},
 					{
-						name: 'Just Passing Through',
-						description: 'During payoff, take -1 heat. When your heat is 4 or less, you get +1d to deceive people when you pass yourselves off as ordinary citizens, and you still have two downtime activities even if you\'re at War (-3) with any faction, as they have trouble locating you.'
+						name: '그냥 지나가는 길입니다',
+						description: '수입 단계에 열기가 -1 감소합니다. 열기 4 이하이면 평범한 시민 시늉을 하여 남들을 속일 때 +1d를 받습니다. 적들이 일행을 잘 못 찾기 때문에, 어느 파벌과 전쟁 상태 (호감 -3)여도 막간 활동을 2개 받습니다.'
 					},
 					{
-						name: 'Home Cooking',
-						description: 'Your whole crew gains Home Cooking as a vice. Right after a job, you may spend 1 cred and a downtime activity to cook for everyone, allowing the whole crew present to make a vice roll. If anyone overindulges, a fight erupts, and everyone gains 1 stress after the vice roll. Requires a galley module.'
+						name: '집밥',
+						description: '일행 모두가 집밥을 악습으로 얻습니다. 일이 끝난 후 1 크레드와 막간 활동 1회를 쓰면 모두가 모여 직접 만든 밥을 먹고 악습 판정을 합니다. 과잉 탐닉이 나오면 싸움이 일어나고, 악습 판정 후 모두가 1 스트레스를 받습니다. 주방 모듈이 있어야 합니다.'
 					},
 					{
-						name: 'Problem Solvers',
-						description: 'Each crew member may add 1 action rating to helm, rig, or scramble (up to a max of 3).'
+						name: '해결사들',
+						description: '각 PC가 공작, 기동, 조타 중 하나의 수치를 1 높입니다 (최대 3).'
 					}
 				],
-				contact: ['T\'kala, a dockmaster', 'Alor, a keen-eared barkeep', 'Heani, a tugboat captain', 'Rakka, a diplomat', 'Citani, a reclusive info broker'],
+				contact: ['트칼라, 착륙장 감독.', '알로르, 귀가 밝은 바텐더.', '헤아니, 예인선 선장.', '라카, 외교관.', '시타니, 은둔하는 정보 브로커.'],
 				upgrade: [
 					{
-						name: 'False Ship Papers',
+						name: '위조 함선 문서',
 					}, {
-						name: 'Dark Hyperspace Lane Maps',
+						name: '초공간 샛길 항법도',
 					}, {
-						name: 'Smuggler\'s Rigging (1 carried item is concealed and has no weight)',
+						name: '밀수꾼의 조끼',
 					}, {
-						name: 'Lucky Charm (+1 starting gambit)',
+						name: '행운의 부적',
 						numboxes: '2',
 					}, {
-						name: 'Thrillseekers (+1 stress box)',
+						name: '스릴 중독자들',
 						numboxes: '3',
 					}
 				]
 			},
-			cerberus: {
+			케르베로스: {
 				base: {
-					crew_description: 'bounty hunters\n and extraction \nspecialists',
-					crew_xp_condition: 'Execute a successful extraction operation or capture of a bounty.',
+					crew_description: '현상금 사냥꾼\n 신병 확보 전문가',
+					crew_xp_condition: '사람을 구출하거나 목표를 체포하는 데 성공한 경우',
 					defaultgambit: '1',
 					setting_show_extra_sys2_mod_4: '0',
-					ship_designation: 'R-29 Firebrand-type Patrol craft',
-					ship_size: 'freighter',
+					ship_designation: 'R-29 파이어브랜드형 순찰정',
+					ship_size: '화물선',
 					sys1_mod: '2',
 					sys1_mod_1_check: '1',
-					sys1_mod_1_desc: 'Long-Range Scanner',
-					sys1_mod_2_desc: 'Nexus Link',
+					sys1_mod_1_desc: '원거리 스캐너',
+					sys1_mod_2_desc: '넥서스 링크',
 					sys2_mod: '1',
 					sys2_mod_1_check: '1',
-					sys2_mod_1_desc: 'Jump Drive',
+					sys2_mod_1_desc: '점프 드라이브',
 					sys3_mod: '1',
 					sys3_mod_1_check: '1',
-					sys3_mod_1_desc: 'Grappling Hooks',
-					sys3_mod_2_desc: 'Particle Cannons',
-					system1_desc: 'comms',
-					system2_desc: 'engines',
-					system3_desc: 'weapons',
-					system4_desc: 'hull',
+					sys3_mod_1_desc: '갈고리',
+					sys3_mod_2_desc: '입자포',
+					system1_desc: '통신',
+					system2_desc: '엔진',
+					system3_desc: '무장',
+					system4_desc: '선체',
 					upgrade_3_check: '1',
 				},
 				crewability: [
 					{
-						name: 'Licensed',
-						description: 'Take -2 heat on any legitimate bounty hunting job. Your ship can carry particle weapons, and your crew can carry and legally use heavy blasters in the pursuit of a target.'
+						name: '면허소지자',
+						description: '합법적인 현상금 사냥 임무에서 열기를 -2 덜 받습니다. 배에 입자포를 장착할 수 있고, 목표를 쫓을 때는 대형 블라스터도 합법적으로 휴대하고 사용할 수 있습니다.'
 					},
 					{
-						name: 'On The Trail',
-						description: 'Your crew gains an extra downtime activity to work on long term projects, or acquire assets to track bounties.'
+						name: '추격의 길',
+						description: '장기 프로젝트, 또는 목표를 쫓기 위한 자산 조달에 쓸 수 있는 막간 활동을 하나 더 받습니다.'
 					},
 					{
-						name: 'Light Touch',
-						description: 'You gain potency when tailing a target, or when gathering info at a target\'s previous location.'
+						name: '섬세한 수법',
+						description: '목표를 미행하거나 목표가 있던 곳에서 정보 수집을 할 때 위력을 얻습니다.'
 					},
 					{
-						name: 'Snatch \'N\' Grab',
-						description: 'When you use a deception, infiltration, or social plan to execute a kidnapping, add +1d to the engagement roll.'
+						name: '확보의 달인',
+						description: '납치나 구출을 목적으로 속임수, 은밀, 또는 사교 계획을 사용할 때 접근 판정에 +1d를 받습니다.'
 					},
 					{
-						name: 'Loaded for Bear',
-						description: 'Your crew can carry +1 load. They have distinctive and high quality armor. When you wear armor, it counts as heavy armor (2 uses).'
+						name: '곰 사냥',
+						description: '일행은 하중을 +1 더 휴대할 수 있고, 독특한 고급 갑옷이 있습니다. 갑옷을 입으면 중갑으로 칩니다 (2회 사용).'
 					},
 					{
-						name: 'Play Both Sides',
-						description: 'When you release a bounty target, make them a crew contact.'
+						name: '양다리',
+						description: '풀어준 현상금 목표는 일행의 연줄이 됩니다.'
 					},
 					{
-						name: 'Deadly',
-						description: 'Each crew member may add 1 action rating to command, scrap, or skulk (up to a max of 3).'
+						name: '치명적',
+						description: '각 PC가 명령, 싸움, 잠행 중 하나의 수치를 1 높입니다 (최대 3).'
 					}
 				],
-				contact: ['Stacy Weathers, ace reporter', 'Arlox, an Ashen Knives Pasha', 'Ishi, a weapons dealer', 'Lix, a Xeno tracker', 'Jezri, a ﬁxer'],
+				contact: ['스테이시 웨더스, 일류 기자.', '아를록스, 잿빛단검회의 파샤.', '이시, 무기 상인.', '릭스, 제노 추적수.', '제즈리, 브로커.'],
 				upgrade: [
 					{
-						name: 'Tracers',
+						name: '추적 장치',
 					}, {
-						name: 'Stun Weapons',
+						name: '충격 무기',
 					}, {
-						name: 'Personal Vehicles',
+						name: '개인용 함선',
+					}, {
+						name: '역전의 용사들',
 						numboxes: '2',
 					}, {
-						name: 'Hard Knocks (+1 starting gambit)',
-						numboxes: '2',
-					}, {
-						name: 'Smooth Criminal (+1 stress box)',
+						name: '유능한 범죄자들',
 						numboxes: '3',
 					},
 				]
 			},
-			firedrake: {
+			파이어드레이크: {
 				base: {
-					crew_description: 'rebels and \nhegemonic \ncriminals',
-					crew_xp_condition: 'Execute a successful job that opposes Hegemonic dominance.',
+					crew_description: '반란분자 \n헤게모니의 범죄자',
+					crew_xp_condition: '헤게모니의 지배에 저항하는 임무에 성공한 경우.',
 					setting_show_extra_sys2_mod_4: '0',
-					ship_designation: 'Converted Khanjigar-class Corvette',
-					ship_size: 'corvette',
-					sys1_mod_1_desc: 'Targeting Computer',
-					sys1_mod_2_desc: 'Fake Transponder',
+					ship_designation: '개조한 칸지가르급 코르벳',
+					ship_size: '코르벳',
+					sys1_mod_1_desc: '조준 컴퓨터',
+					sys1_mod_2_desc: '위장 신호 송출기',
 					sys2_mod: '1',
 					sys2_mod_1_check: '1',
-					sys2_mod_1_desc: 'Particle Cannons',
-					sys2_mod_2_desc: 'Coherence Cannon',
+					sys2_mod_1_desc: '입자포',
+					sys2_mod_2_desc: '파동일치포',
 					sys3_mod: '1',
 					sys3_mod_1_check: '1',
-					sys3_mod_1_desc: 'Jump Drive',
+					sys3_mod_1_desc: '점프 드라이브',
 					sys4_mod: '1',
 					sys4_mod_1_check: '1',
-					sys4_mod_1_desc: 'Crew Quarters',
-					sys4_mod_2_desc: 'Landing Bay',
-					system1_desc: 'comms',
-					system2_desc: 'weapons',
-					system3_desc: 'engines',
-					system4_desc: 'hull',
+					sys4_mod_1_desc: '숙소',
+					sys4_mod_2_desc: '격납고',
+					system1_desc: '통신',
+					system2_desc: '무장',
+					system3_desc: '엔진',
+					system4_desc: '선체',
 					upgrade_5_check1: '1',
 					upgrade_5_check2: '1',
 					upgrade_12_check: '1',
 				},
 				crewability: [
 					{
-						name: 'Old Hands',
-						description: 'When you\'re at War (-3) with a Hegemony faction, all crewmembers get +1d to vice rolls and still get two downtime activities, instead of just one.'
+						name: '노병들',
+						description: '헤게모니 파벌과 전쟁 상태 (호감 -3)일 때, 모든 PC들이 악습 판정에 +1d를 받고 막간 활동을 1개가 아니라 평소대로 2개 받습니다.'
 					},
 					{
-						name: 'Forged in Fire',
-						description: 'Your crew has been toughened by cruel experience. You each get +1d to all resistance rolls.'
+						name: '불의 세례',
+						description: '일행은 끔찍한 경험을 통해 강해졌습니다. 전원이 모든 저항 판정에 +1d를 받습니다.'
 					},
 					{
-						name: 'Sympathizers',
-						description: 'Your ideology is especially appealing. When you deal with a crew or faction, the GM will tell you who among them believes in your cause (one, a few, many, or all).'
+						name: '동조자들',
+						description: '여러분의 사상은 매우 매력적입니다. NPC 집단이나 파벌을 상대할 때, 마스터는 그 중에 사상을 공유하는 사람이 있는지 말해 줄 것입니다 (하나, 몇 명, 여러 명, 또는 전원).'
 					},
 					{
-						name: 'Natural Enemies',
-						description: 'When you run a job against Hegemony factions, take +1d to the engagement roll.'
+						name: '천적',
+						description: '헤게모니 파벌을 상대로 임무를 벌일 때는 접근 판정에 +1d를 받습니다.'
 					},
 					{
-						name: 'Spark of Rebellion',
-						description: 'If you leave a calling card or a highly visible symbol of resistance on your job, gain +2 heat. Your crew gains +1d to vice during the next downtime, and cannot overindulge.'
+						name: '반란의 불씨',
+						description: '눈에 확 띄는 반란의 상징을 임무 현장에 남기면 +2 열기를 받습니다. 일행이 다음 막간에 하는 악습 판정에는 +1d가 붙고, 과잉 탐닉이 일어나지 않습니다.'
 					},
 					{
-						name: 'Just Cause',
-						description: 'When your crew does the right thing at cost to themselves, you may mark a crew xp.'
+						name: '대의',
+						description: '일행이 피해나 손해를 보고도 옳은 일을 하면 일행 xp를 얻습니다.'
 					},
 					{
-						name: 'Hearts and Minds',
-						description: 'Each crew member may add 1 action rating to command, consort, or sway (up to a max of 3).'
+						name: '마음에의 호소',
+						description: '각 PC가 명령, 친교, 현혹 중 하나의 수치를 1 높입니다 (최대 3).'
 					}
 				],
-				contact: ['Garin, a Guild weapons engineer', 'Tyura, a legendary assassin', 'Ada Black, a famous performer', 'Tiko Lux, a hotshot pilot', 'Ibo-one, an ancient Cult mystic'],
+				contact: ['가린, 길드의 무기 엔지니어.', '티우라, 전설적 자객.', '에이다 블랙, 유명 연예인.', '티코 룩스, 잘나가는 파일럿.', '이보-완, 어느 옛 교단의 조화사.'],
 				upgrade: [
 					{
-						name: 'Black Market Contacts',
+						name: '암시장 연줄',
 						numboxes: '1',
 					}, {
-						name: 'Secret Base',
+						name: '비밀 기지',
 						numboxes: '1',
 					}, {
-						name: 'Popular Support',
+						name: '민중의 지지',
 						numboxes: '3'
 					}, {
-						name: 'Way Blessed (+1 starting gambit)',
+						name: '조화의 축복',
 						numboxes: '2',
 					}, {
-						name: 'Driven (+1 maximum trauma)',
+						name: '열의',
 						numboxes: '3',
 					},
 				]
 			}
 		},
 		playbookData = {
-			mechanic: {
+			기술자: {
 				ability: [
 					{
-						name: 'Bailing Wire and Mech-Tape',
-						description: 'You get an extra downtime activity to repair, and the repair activity costs you 0 cred.'
+						name: '철사와 기계용 테이프',
+						description: '수리에 쓸 수 있는 추가 막간 활동을 하나 받습니다. 이 수리에는 크레드가 들지 않습니다.'
 					},
 					{
-						name: 'Construct Whisperer',
-						description: 'Machines speak to you when you study them. The first time you roll a critical while fixing or building a particular machine, you may add a simple modification to it. (see Crafting)'
+						name: '기계와의 대화',
+						description: '조사를 통해 기계와 대화할 수 있습니다. 특정한 기계를 고치거나 만들면서 처음으로 대성공이 나온 경우, 여기에 단순한 개조를 하나 추가할 수 있습니다.'
 					},
 					{
-						name: 'Junkyard Hunter',
-						description: 'When you acquire parts or equipment during downtime, you may either gain 2 assets, or one asset at +1 quality.'
+						name: '고물 사냥꾼',
+						description: '막간에 자산 조달로 부품이나 장비를 구할 때 자산을 2개, 아니면 자산 하나를 +1 품질로 얻을 수 있습니다.'
 					},
 					{
-						name: 'Hacker',
-						description: 'You may expend your special armor to resist the consequences of hacking, or to push yourself when hacking or gathering info electronically.'
+						name: '해커',
+						description: '특수 갑옷을 소비하면: 해킹의 대가에 저항하거나, 해킹 및 전자적인 정보 수집에서 분발을 공짜로 할 수 있습니다.'
 					},
 					{
-						name: 'Fixed',
-						description: 'You may expend your special armor to resist a consequence from machines breaking or being damaged, or to push yourself when repairing or building a machine.'
+						name: '고쳤다',
+						description: '특수 갑옷을 소비하면: 기계가 망가지거나 손상되는 데 따른 대가에 저항하거나, 기계를 수리하거나 만들 때 분발을 공짜로 할 수 있습니다.'
 					},
 					{
-						name: 'Mechanic\'s Heart',
-						description: 'When you speak from your heart, your words can reach even the most hardened criminal, and you gain potency.'
+						name: '기술자의 마음',
+						description: '진심을 담아 말을 하면 아무리 닳고닳은 범죄자라 해도 그 말을 들어줍니다. 또한 위력을 얻습니다.'
 					},
 					{
-						name: 'Overclock',
-						description: 'When you spend a gambit on a rig roll to repair or upgrade, treat the system you worked on as 1 quality higher for the remainder of the job.'
+						name: '오버클럭',
+						description: '수리나 업그레이드를 하는 공작 판정에 묘수를 사용하면, 남은 임무 내내 작업 대상인 시스템의 품질이 한 단계 높은 것으로 칩니다.'
 					},
 					{
-						name: 'Analyst',
-						description: 'When you hack a system, you may also ask a question about the owner or location of the system as though you had rolled a 6 on gather info. When you resist the consequences of hacking, roll +1d.'
+						name: '분석가',
+						description: '시스템을 해킹하면, 그 시스템의 주인이나 위치에 관한 질문을 하나, 정보 수집에 6이 나온 것처럼 할 수 있습니다. 해킹의 대가에 저항할 때 +1d를 받습니다.'
 					}
 				],
 				base: {
-					ability0_name: 'Tinker',
-					ability0_description: 'When you work on a clock with rig or hack, or when you study a schematic, fill +1 segment.',
-					friend_adjective: 'Colorful Friends',
-					playbook_description: 'a Gearhead \nand \nHacker',
+					ability0_name: '땜장이',
+					ability0_description: '공작이나 해킹으로 시계를 채우거나 도면을 조사할 때 +1칸을 더 채웁니다.',
+					friend_adjective: '다채로운 친구들',
+					playbook_description: '기계와 \n해킹에 \n능수능란',
 					rig: '2',
 					study: '1',
-					xp_condition: 'You addressed a tough challenge with technical skill or ingenuity.'
+					xp_condition: '난관에 기술이나 창의성으로 임한 경우.'
 				},
-				friend: ['Slice, a junkyard owner', 'Nisa, a previous employer', 'Stev, a gambler of ill repute', 'Len, a black market dealer', 'Kenn, a family member'],
+				friend: ['슬라이스, 고물상', '니사, 전 고용주', '스테브, 평판 나쁜 도박사', '렌, 암시장 상인', '켄, 가족'],
 				playbookitem: [
 					{
 						bold: '1',
-						name: 'Fine Hacking Rig',
+						name: '고급 해킹 콘솔',
 					}, {
 						bold: '1',
-						name: 'Fine Ship Repair Tools',
+						name: '고급 함선 수리 공구',
 						numboxes: '2',
 					}, {
-						name: 'Small Drone',
+						name: '소형 드론',
 						numboxes: '0',
 					}, {
-						name: 'Vision-Enhancing Goggles',
+						name: '시각 강화 고글',
 					}, {
-						name: 'Spare Parts',
+						name: '예비 부품',
 					}, {
-						name: 'Genius Pet',
+						name: '천재 동물 친구',
 						numboxes: '0',
 					},
 				]
 			},
-			muscle: {
+			싸움꾼: {
 				ability: [
 					{
-						name: 'Wrecking Crew',
-						description: 'Your strength and ferocity are infamous. When striking in melee, you gain +1d. Whenever you spend a gambit in combat, you also gain +1 effect on that action.'
+						name: '파괴자',
+						description: '힘이 세고 맹렬하기로 악명 높습니다. 백병전에서 공격할 때 +1d를 받습니다. 전투에서 묘수를 소비하면 그 행동에 +1 효과를 얻습니다.'
 					},
 					{
-						name: 'Backup',
-						description: 'An ally\'s push costs only 1 stress (instead of 2) on any action you set up or assist.'
+						name: '지원',
+						description: '이 캐릭터의 밑작업이나 도움을 받는 동료는 그 행동을 할 때 분발에 스트레스가 1만 듭니다.'
 					},
 					{
-						name: 'Battleborn',
-						description: 'You may expend your special armor to reduce harm from an attack in combat, or to push yourself during a ﬁght.'
+						name: '전사 근성',
+						description: '특수 갑옷을 소비하면: 전투에서 공격으로 인한 피해를 감소시키거나, 전투 중에 분발을 공짜로 할 수 있습니다.'
 					},
 					{
-						name: 'Bodyguard',
-						description: 'When you protect a crewmate, resist with +1d. When you take harm, clear 1 stress.'
+						name: '보디가드',
+						description: '동료를 보호할 때 저항 판정에 +1d를 받습니다. 피해를 입으면 1 스트레스를 제거합니다.'
 					},
 					{
-						name: 'Flesh Wound',
-						description: 'If you\'re wounded at the beginning of downtime, mark +3 segments on your healing clock. When you push yourself to ignore wound penalties you take only 1 stress (not 2).'
+						name: '스쳤을 뿐',
+						description: '막간이 시작되었을 때 부상을 입은 상태이면 치유 시계를 +3칸 더 채웁니다. 부상 페널티를 무시하기 위해 분발을 할 때는 (2가 아닌) 1 스트레스가 듭니다.'
 					},
 					{
-						name: 'Predator',
-						description: 'Take +1d to rolls against weakened or vulnerable targets. Whenever you gather information on a weakness or vulnerability, the worst you can get is a 4/5 result.'
+						name: '표범의 눈',
+						description: '약화되었거나 취약한 목표에 대한 판정에 +1d를 받습니다. 약점이나 빈틈에 관해 정보 수집을 할 때는 판정 결과가 아무리 낮아도 4/5인 것으로 칩니다.'
 					},
 					{
-						name: 'Ready for Anything',
-						description: 'When being ambushed, you gain potency to all actions during a flashback, and your ﬁrst ﬂashback costs 0 stress.'
+						name: '만반의 준비',
+						description: '기습을 당할 경우, 회상에서 일어나는 모든 행동에 위력을 얻고 첫 번째 회상은 스트레스가 들지 않습니다.'
 					},
 					{
-						name: 'Scary',
-						description: 'You have an air of menace and danger obvious to even the most unobservant. You gain potency when trying to intimidate someone. If done immediately after a show of force, also take +1d.'
+						name: '위협적',
+						description: '누가 봐도 위험의 냄새를 풀풀 풍깁니다. 남을 위협하려 할 때 위력을 얻습니다. 힘을 과시한 직후에는 +1d도 받습니다.'
 					},
 				],
 				base: {
-					ability0_name: 'Unstoppable',
-					ability0_description: 'You can push yourself to do one of the following: \nperform a feat of physical force that verges on the superhuman — engage a small gang on equal footing in close combat.',
+					ability0_name: '날 막지는 못해',
+					ability0_description: '분발을 하면 다음 중 하나를 할 수 있습니다: 거의 초인적인 물리력을 한 번 드러냅니다 — 근접전에서 작은 규모의 적들과 동등하게 싸웁니다.',
 					command: '1',
-					friend_adjective: 'Deadly Friends',
-					playbook_description: 'a dangerous \nand intimidating \nfighter',
+					friend_adjective: '치명적인 친구들',
+					playbook_description: '위험하고 \n압도적인 전사',
 					scrap: '2',
-					xp_condition: 'You addressed a tough challenge with force or threats.'
+					xp_condition: '난관에 힘이나 위협으로 임한 경우.'
 				},
-				friend: ['Krieger, a fine blaster pistol', 'Shod, a weapons dealer', 'Chon-zek, a bounty hunter', 'Yazu, a crooked cop', 'Aya, an assassin'],
+				friend: ['크리거, 블라스터 권총', '쇼드, 무기 상인', '촌-제크, 현상금 사냥꾼', '야주, 부패 경찰', '아야, 자객'],
 				playbookitem: [
 					{
 						bold: '1',
-						name: 'Vera, a Fine Sniper Rifle',
+						name: '크리거, 고급 블라스터 권총',
+						numboxes: '1',
+					}, {
+						bold: '1',
+						name: '베라, 고급 저격 라이플',
 						numboxes: '2',
 					}, {
 						bold: '1',
-						name: 'Zmei, a Fine Flamethrower',
+						name: '츠메이, 고급 화염방사기',
 						numboxes: '2',
 					}, {
 						bold: '1',
-						name: 'Sunder, a Fine Vibro-Blade',
+						name: '선더, 고급 진동검',
 					}, {
-						name: 'Zarathustra, Detonator Launcher',
-						numboxes: '2'
-					}, {
-						bold: '1',
-						name: 'Krieger, a fine blaster pistol',
+						name: '짜라투스트라, 유탄발사기',
+						numboxes: '2',
 					}, {
 						bold: '1',
-						name: 'Fine Martial Art Style',
+						name: '고급 무술',
 						numboxes: '0',
 					}, {
-						name: 'Mystic Ammunition',
+						name: '조화 탄약',
 						numboxes: '0',
 					}
 				]
 			},
-			mystic: {
+			조화사: {
 				ability: [
 					{
-						name: 'Kinetics',
-						description: 'You can push yourself to do one of the following: \nuse the Way to throw a table-sized object with dangerous force — propel yourself brieﬂy with superhuman speed.'
+						name: '염동력',
+						description: '분발을 하면 다음 중 하나를 할 수 있습니다: 조화를 사용해서 탁자 크기의 물체를 위험할 정도의 힘으로 던진다 — 자기 몸을 초인적인 속도로 쏘아낸다'
 					},
 					{
-						name: 'Psy-Blade',
-						description: 'You can focus Way energy into your melee weapon. While charged, the weapon can cut through non-shielded materials with ease, and you gain potency on your melee attacks.'
+						name: '정신검',
+						description: '조화 에너지를 근접 무기에 불어넣을 수 있습니다. 에너지가 담긴 무기는 실드가 없는 물질을 쉽게 벨 수 있고, 근접 공격에 위력을 줍니다.'
 					},
 					{
-						name: 'Center',
-						description: 'You gain Meditation as a vice. When you indulge this vice, clear +1 stress and add Dark Visions as a possible overindulgence.'
+						name: '중심',
+						description: '악습으로 명상을 얻습니다. 이 악습에 탐닉하면 스트레스가 +1 더 제거됩니다. 또한 과잉 탐닉으로 무서운 환상이 일어날 수 있게 됩니다.'
 					},
 					{
-						name: 'Way Shield',
-						description: 'You can block blaster bolts with the Way (resist with Resolve). If you resist a blaster attack, you may spend 1 stress to redirect fire and make an attack of your own with it.'
+						name: '조화의 방패',
+						description: '블라스터 공격을 조화로 막아낼 수 있습니다 (의지로 저항). 저항한 후에 1 스트레스를 더 받으면 그 방향을 돌려 자신의 공격으로 만들 수 있습니다.'
 					},
 					{
-						name: 'Warded',
-						description: 'You may expend your special armor to resist the consequences of a Way attack or artifact use, or push yourself when using mystic powers.'
+						name: '보호진',
+						description: '특수 갑옷을 소비하면: 조화를 이용한 공격 및 유물의 사용에 따른 대가에 저항하거나, 조화사 능력을 쓸 때 필요한 분발을 공짜로 할 수 있습니다.'
 					},
 					{
-						name: 'Psy-Dancing',
-						description: 'You may push yourself to cloud a target\'s mind and sway them in the face of contradictory evidence. Spend 1 stress for each additional feature: /nthey have only vague memories of the event — it works on a small group.'
+						name: '혼란',
+						description: '분발을 하면 대상의 정신을 어지럽혀, 명백한 반증이 있는 상황에서도 현혹할 수 있습니다. “내 말에 따르거라. 나는 대사 각하다.” 다음의 추가 효과 하나마다 1 스트레스를 받습니다: 대상이 혼란을 당한 사실을 희미하게만 기억 — 작은 집단 전체에 유효.'
 					},
 					{
-						name: 'Visions',
-						description: 'Spend 1 stress to remotely view a distant place or person tied to you in some intimate way. Spend 1 stress for each extra feature: /nIt lasts for a minute rather than a moment — your target can also see and hear you — you may see something only familiar to you, not intimate.'
+						name: '환상',
+						description: '스트레스 1을 받으면 자신과 밀접한 관계가 있는 먼 장소나 사람의 모습을 순간적으로 볼 수 있습니다. 다음의 추가 효과 하나마다 1 스트레스를 받습니다: 순간이 아니라 1분 지속 — 상대도 이쪽을 보고 들을 수 있음 — 밀접하지 않고 그저 익숙하기만 한 것도 볼 수 있음'
 					},
 					{
-						name: 'Sundering',
-						description: 'You may push yourself to attune to the Way and twist it, causing psychic harm to anyone in the area vulnerable to your assault. You may spend 1 stress for each additional feature: /nit damages instead of stuns — you and anyone you choose get +2d to resist the effects.'
+						name: '파열',
+						description: '분발을 하고 조율하여 조화를 비틀면 이 공격이 통하는 주변의 대상에게 정신적 피해를 줍니다. 다음의 추가 효과 하나마다 1 스트레스를 받습니다: 충격이 아니라 실제 피해를 줌 — 자기 자신 및 자신이 선택한 대상들은 저항에 +2d를 받음.'
 					}
 				],
 				base: {
-					ability0_name: 'The Way',
-					ability0_description: 'You can spend a gambit instead of paying any stress cost.',
+					ability0_name: '조화',
+					ability0_description: '묘수를 하나 소비하여 스트레스 비용을 면할 수 있습니다.',
 					attune: '2',
-					friend_adjective: 'Weird Friends',
-					playbook_description: 'a galactic \nwanderer in touch \nwith the way',
+					friend_adjective: '기이한 친구들',
+					playbook_description: '조화와 이어져 \n은하계를 \n떠도는 자',
 					scramble: '1',
-					xp_condition: 'You addressed a tough challenge with wisdom or the Way.'
+					xp_condition: '난관에 조화의 지혜로 임한 경우.'
 				},
-				friend: ['Horux, a former teacher', 'Hicks, a mystic goods supplier', 'Laxx, a xeno', 'Rye, an unrequited love', 'Blish, a fellow mystic'],
+				friend: ['호룩스, 옛 스승', '힉스, 조화사 용품 상인', '락스, 제노', '라이, 이루어지지 못한 사랑', '블리시, 동료 조화사'],
 				playbookitem: [
 					{
 						bold: '1',
-						name: 'Fine Melee Weapon',
+						name: '고급 근접 무기',
 						numboxes: '2',
 					}, {
-						name: 'Offerings',
-					}, {
-						name: 'Trappings of Religion',
-					}, {
-						name: 'Outdated Religious Outfit',
+						name: '공물',
 						numboxes: '0',
 					}, {
-						name: 'Memento of Your Travels',
+						name: '종교용품',
+					}, {
+						name: '구식 종교 복장',
+					}, {
+						name: '여행의 기념품',
 						numboxes: '0',
 					}, {
-						name: 'Precursor Artifact',
+						name: '선주인 유물',
 					},
 				]
 			},
-			pilot: {
+			파일럿: {
 				ability: [
 					{
-						name: 'Keen Eye',
-						description: 'You have sharp eyes and notice small details many might overlook. Gain +1d when firing ship guns or making trick shots.'
+						name: '매의 눈',
+						description: '눈이 날카로워서 남들은 놓칠 만한 사소한 것도 눈치챕니다. 배의 무기를 쏠 때나 묘기 사격을 할 때 +1d를 얻습니다.'
 					},
 					{
-						name: 'Side Job',
-						description: 'You may spend a downtime activity in port doing odd jobs. Gain 1 cred. If there are rumors floating about, the GM will tell you of them.'
+						name: '부업',
+						description: '항구에서 자잘한 일거리를 맡는 데 막간 활동 하나를 소비하면 1 크레드를 얻습니다. 소문이 돌면 마스터가 얘기해 줄 것입니다.'
 					},
 					{
-						name: 'Exceed Specs',
-						description: 'While onboard a ship you may damage a ship system you have access to in order to gain +1d or +1 effect to a roll.'
+						name: '사양 초월',
+						description: '배에 타고 있는 동안, 배의 시스템 하나를 손상시키면 판정에 +1d 또는 +1 효과를 얻을 수 있습니다.'
 					},
 					{
-						name: 'Leaf on the Wind',
-						description: 'When you push yourself, you may spend +1 stress (so 3 stress total) to gain both +1 effect and +1d instead of one or the other.'
+						name: '바람 속의 잎사귀',
+						description: '분발을 할 때 +1 스트레스를 더 받으면 (도합 3 스트레스) +1 효과와 +1d 중에서 선택하는 것이 아니라 둘 다 얻습니다.'
 					},
 					{
-						name: 'Hedonist',
-						description: 'When you indulge your vice, you may adjust the dice outcome by +/-2. An ally who joins you may do the same.'
+						name: '쾌락주의자',
+						description: '악습에 탐닉할 때 주사위 결과를 +/-2만큼 바꿀 수 있습니다. 함께 탐닉하는 동료 한 명도 그렇게 할 수 있습니다.'
 					},
 					{
-						name: 'Commander',
-						description: 'Whenever you lead a group action, gain +1 scale (for example, a small group counts as a medium group). If you lead a group action in combat, you may count multiple 6\'s from different rolls as a critical.'
+						name: '지휘관',
+						description: '집단 행동을 이끌 때 +1 규모를 얻습니다 (예를 들어 작은 집단은 중간 집단으로 칩니다). 전투에서 집단 행동을 이끌 때는 서로 다른 판정들에서 6을 모아 대성공으로 칠 수 있습니다.'
 					},
 					{
-						name: 'Traveller',
-						description: 'You’re comfortable around unusual cultures and xenos. You gain potency when attempting to consort with or sway them.'
+						name: '여행자',
+						description: '특이한 문화와 제노들을 편하게 느낍니다. 이런 존재들과 친교나 현혹을 할 때 위력을 얻습니다.'
 					},
 					{
-						name: 'Punch It!',
-						description: 'When you spend a gambit on a desperate roll, it counts as risky instead.'
+						name: '까짓거 해 버려!',
+						description: '필사적 판정에 묘수를 쓸 때, 그 판정은 모험적 판정이 됩니다.'
 					}
 				],
 				base: {
-					ability0_name: 'Ace Pilot',
-					ability0_description: 'You have potency on all speed-related rolls. When you roll to resist the consequences of piloting, gain +1d.',
-					friend_adjective: 'Fast Friends',
+					ability0_name: '에이스 파일럿',
+					ability0_description: '속도에 관련된 모든 판정에 위력을 갖습니다. 조종에 관련된 대가에 저항할 때 +1d를 받습니다.',
+					friend_adjective: '빠른 친구들',
 					helm: '2',
-					playbook_description: 'a ship-handling\nwizard and \ndanger addict',
+					playbook_description: '위험에 중독된\n조종의 달인',
 					rig: '1',
-					xp_condition: 'You addressed a tough challenge with speed or flair.'
+					xp_condition: '난관에 속도나 멋으로 임한 경우.'
 				},
-				friend: ['Yattu, a gang boss', 'Triv, a ship mechanic', 'Choss, a professional racer', 'Meris, a scoundrel', 'Mav, a former mentor'],
+				friend: ['야투, 갱 보스', '트리브, 함선 기술자', '초스, 프로 레이서', '메리스, 무뢰한', '마브, 옛 스승'],
 				playbookitem: [
 					{
 						bold: '1',
-						name: 'Fine Customized Spacesuit',
+						name: '고급 커스텀 우주복',
 						numboxes: '2',
 					}, {
 						bold: '1',
-						name: 'Fine Small Urbot',
+						name: '고급 소형 우르봇',
 						numboxes: '0',
 					}, {
 						bold: '1',
-						name: 'Fine Mechanic\'s Kit',
+						name: '고급 수리 키트',
 					}, {
-						name: 'Grappling Hook',
+						name: '갈고리',
 					}, {
-						name: 'Guild License',
+						name: '길드 면허증',
 					}, {
-						name: 'Victory Cigars',
+						name: '축하용 시가',
 						numboxes: '0',
 					},
 				]
 			},
-			scoundrel: {
+			무뢰한: {
 				ability: [
 					{
-						name: 'Never Tell Me the Odds',
-						description: 'You also generate gambits on desperate rolls. You may also generate gambits even if you spent a gambit.'
+						name: '나한테 확률 얘기 하지 마',
+						description: '필사적인 판정에서도 묘수가 생성됩니다. 또한, 이미 묘수를 소비한 판정에서도 묘수가 생성됩니다.'
 					},
 					{
-						name: 'I Know a Guy',
-						description: 'When you first dock at a port after being away, pick one and ask the the GM about a job: \nit\'s not deadly — it pays well enough — it\'s not a rush job — it comes from a faction you trust — it targets an enemy you have.\nYou may spend 1 cred per additional feature.'
+						name: '마당발',
+						description: '떠났다가 항구에 처음 돌아오면 다음 중 하나를 고르고 마스터에게 임무를 찾아 달라고 합니다: 생명에 위협 없음 — 돈을 충분히 줌 — 급한 일이 아님 — 믿을 만한 파벌이 의뢰주 — 자기의 적이 목표. 1 크레드를 쓸 때마다 추가 사항 하나를 더 선택할 수 있습니다.'
 					},
 					{
-						name: 'Tenacious',
-						description: 'Penalties from harm are one level less severe (though level 4 harm is still fatal).'
+						name: '끈질김',
+						description: '피해에 의한 페널티가 한 단계 줄어듭니다 (그래도 4단계 피해는 그대로 치명적입니다).'
 					},
 					{
-						name: 'When the Chips are Down',
-						description: 'You gain a second use of special armor between each downtime.'
+						name: '이대로 망할 수는 없다',
+						description: '막간과 막간 사이에 특수 갑옷을 한 번 더 사용할 수 있게 됩니다.'
 					},
 					{
-						name: 'Devil\'s Own Luck',
-						description: 'You may expend your special armor to resist the consequences of blaster fire, or to push yourself when talking your way out of (or running) from trouble.'
+						name: '운수대통',
+						description: '특수 갑옷을 소비하면: 블라스터 피해의 대가에 저항하거나, 문제를 말로 해결할 때 (또는 문제로부터 도망칠 때) 분발을 공짜로 할 수 있습니다.'
 					},
 					{
-						name: 'Daredevil',
-						description: 'When you make a desperate roll, you may take +1d. If you do so, do not mark xp in that action\'s attribute.'
+						name: '필사의 도박',
+						description: '필사적 판정을 할 때 +1d를 받을 수 있습니다. 단, 그러기로 하면 그 행동의 특성 수치에 xp 표시를 하지 않습니다.'
 					},
 					{
-						name: 'Shoot First',
-						description: 'When you attack from hiding or spring a trap, take +1d. When there\'s a question about who acts first, the answer is you (two characters with Shoot First act simultaneously).'
+						name: '일단 쏘고',
+						description: '숨어 있다가 공격하거나 덫을 발동시킬 때 +1d를 받습니다. 누가 먼저 행동할지 확실치 않은 경우, 답은 이 캐릭터입니다 (일단 쏘고를 가진 사람들은 동시에 행동합니다).'
 					},
 					{
-						name: 'Ask Questions Later',
-						description: 'When you consort to gather info, you gain potency and can in addition ask, "Who might this benefit?"'
+						name: '질문은 나중에',
+						description: '정보 수집을 위해 친교를 하면 +1 효과를 얻고 추가로 다음 질문을 할 수 있습니다: 이로써 이득을 보는 사람은 누구인가?'
 					},
 				],
 				base: {
-					ability0_name: 'Serendipitous',
-					ability0_description: 'Your crew starts with +1 gambit when the pool resets.',
-					friend_adjective: '"Friends"',
-					item_0_name: 'Fine Sidearm (or Pair)',
-					playbook_description: 'a scrappy and \nlucky survivor',
+					ability0_name: '행운아',
+					ability0_description: '일행의 묘수 초기치가 +1 증가합니다. 원래 남들보다 운이 좋습니다.',
+					friend_adjective: '"친구들"',
+					item_0_name: '고급 블라스터 권총 (원하면 한 쌍)',
+					playbook_description: '건방지고 \n운 좋은 생존자',
 					setting_showitem_0: '1',
 					skulk: '1',
 					sway: '2',
-					xp_condition: 'You addressed a tough challenge with charm or audacity.'
+					xp_condition: '난관에 매력이나 뻔뻔함으로 임한 경우.'
 				},
-				friend: ['Nyx, a moneylender', 'Ora, an info broker', 'Jal, a ship mechanic', 'Rhin, a smuggler', 'Battro, a bounty hunter'],
+				friend: ['닉스, 대출업자', '오라, 정보 브로커', '잘, 함선 기술자', '라힌, 밀수꾼', '바트로, 현상금 사냥꾼'],
 				playbookitem: [
 					{
 						bold: '1',
-						name: 'Fine Coat',
+						name: '고급 코트',
 					}, {
-						name: 'Loaded Dice, Trick Holocards',
+						name: '속임수 주사위나 홀로카드',
 						numboxes: '0',
 					}, {
-						name: 'Forged Documents',
+						name: '위조 문서',
 						numboxes: '0',
 					}, {
-						name: 'Mystic Ammunition',
+						name: '조화 탄약',
 						numboxes: '0',
 					}, {
-						name: 'Personal Memento',
+						name: '개인적인 기념품',
 						numboxes: '0',
 					},
 				]
 			},
-			speaker: {
+			얼굴: {
 				ability: [
 					{
-						name: 'Favors Owed',
-						description: 'During downtime, you get +1d when you acquire assets or lay low. Any time you gather info, take +1d.'
+						name: '베풀어 둔 은혜',
+						description: '막간에 자산 조달이나 몸 사리기를 할 때 +1d를 얻습니다. 정보 수집을 할 때에도 +1d를 얻습니다.'
 					},
 					{
-						name: 'Player',
-						description: 'You always know when someone is lying to you.'
+						name: '선수',
+						description: '상대가 거짓말을 하면 항상 알아챕니다.'
 					},
 					{
-						name: 'Infiltrator',
-						description: 'You are not affected by quality or Tier when you bypass security measures.'
+						name: '침투',
+						description: '보안 수단을 통과할 때 상대의 품질이나 등급에 영향을 받지 않습니다.'
 					},
 					{
-						name: 'Subterfuge',
-						description: 'You may expend your special armor to resist a consequence of persuasion or suspicion. When you resist with Insight, gain +1d.'
+						name: '기만술',
+						description: '특수 갑옷을 소비하면: 의심 및 설득에서 비롯된 대가에 저항할 수 있습니다. 통찰로 저항할 때 +1d를 받습니다.'
 					},
 					{
-						name: 'Heart to Heart',
-						description: 'When you provide meaningful insight or heartfelt advice that a crewmate follows, you both clear 1 stress.'
+						name: '마음에서 마음으로',
+						description: '동료에게 의미 있는 의견이나 진심 어린 조언을 제공하고 동료가 그것을 따르면 둘 다 스트레스를 1 제거합니다.'
 					},
 					{
-						name: 'Old Friends',
-						description: 'Whenever you land in a new location, write down a friend you know there (see Influential Friends below).'
+						name: '옛 친구들',
+						description: '새로운 곳에 처음으로 도달했을 때, 그곳에 있는 친구를 하나 설정합니다 (플레이북 시트의 영향력 있는 친구들 아래에 추가하세요).'
 					},
 					{
-						name: 'Disarming',
-						description: 'Whenever you use a gambit while speaking, hostilities and danger also pause while you speak.'
+						name: '방심시키기',
+						description: '말을 할 때 묘수를 사용하면, 말을 하는 동안 위험과 적개심이 멈춥니다.'
 					},
 					{
-						name: 'Purpose',
-						description: 'You may expend your special armor to push yourself when outclassed by your opposition, or when under the effects of wounds. When you resist with Resolve, gain +1d.'
+						name: '목적 의식',
+						description: '특수 갑옷을 소비하면: 우월한 적을 상대할 때 또는 부상의 영향을 받고 있을 때 분발을 공짜로 할 수 있습니다. 의지로 저항할 때 +1d를 받습니다.'
 					}
 				],
 				base: {
-					ability0_name: 'Air of Respectability',
-					ability0_description: 'You get an extra downtime activity to acquire assets or lay low.',
+					ability0_name: '점잖은 인상',
+					ability0_description: '자산 조달이나 몸 사리기에 쓸 수 있는 막간 활동을 하나 더 받습니다.',
 					command: '1',
 					consort: '2',
-					friend_adjective: 'Influential Friends',
-					playbook_description: 'a respectable\nperson on\nthe take',
-					xp_condition: 'You addressed a tough challenge with deception or influence.'
+					friend_adjective: '영향력 있는 친구들',
+					playbook_description: '범죄계와 사회를 \n잇는 다리',
+					xp_condition: '난관에 속임수나 영향력으로 임한 경우.'
 				},
-				friend: ['Arryn, a Noble', 'Manda, a guild member', 'Kerry, a doctor', 'Je-zee, a diplomat', '_________________'],
+				friend: ['아린, 귀족', '만다, 길드 회원', '케리, 의사', '제-지, 외교관', '_________________'],
 				playbookitem: [
 					{
 						bold: '1',
-						name: 'Fine Clothes',
+						name: '고급 의류',
 					}, {
-						name: 'Legitimate ID',
+						name: '합법적 신분증',
 						numboxes: '0',
 					}, {
-						name: 'Luxury Item',
+						name: '명품',
 						numboxes: '0',
 					}, {
-						name: 'Luxury Item',
+						name: '명품',
 						numboxes: '1',
 					}, {
-						name: 'Large Luxury Item',
+						name: '큰 명품',
 						numboxes: '2',
 					}, {
-						name: 'Memento of a Past Encounter',
+						name: '지난 만남의 기념품',
 						numboxes: '0',
 					},
 				]
 			},
-			stitch: {
+			닥터: {
 				ability: [
 					{
-						name: 'Physicker',
-						description: 'You may study a malady, wounds, or corpse, and gather info from a crime scene. Also, your crew gets +1d to recovery rolls.'
+						name: '고급 의학',
+						description: '질환, 부상, 시신을 조사하고, 범죄 현장에서 정보 수집을 할 수 있습니다. 또한, 일행 전부가 회복 판정에 +1d를 받습니다.'
 					},
 					{
-						name: 'Patch',
-						description: 'You may doctor someone during a job to allow them to ignore the effects of a harm penalty.'
+						name: '응급조치',
+						description: '임무 도중 의료를 써서 피해 페널티를 무시하게 할 수 있습니다.'
 					},
 					{
-						name: 'Welcome Anywhere',
-						description: 'While wearing your medic garb, you are welcome even in dangerous places. Gain +1d to consort and sway when offering to tend to anyone in need.'
+						name: '어디서나 환영',
+						description: '의료복을 입고 있으면 위험한 곳에서도 환영받습니다. 치료가 필요한 사람을 돌보겠다고 하면 친교나 현혹에 +1d를 얻습니다.'
 					},
 					{
-						name: 'Under Pressure',
-						description: 'Add a gambit to the pool whenever you or a crew member suffers level 2 or worse harm.'
+						name: '군의',
+						description: '특수 갑옷을 소비하면 환자를 돌보는 동안 일어나는 어떤 대가에도 공짜로 저항할 수 있습니다. 전투 중에 사람에게 의료를 쓰면 1 스트레스를 제거합니다.'
 					},
 					{
-						name: 'Combat Medic',
-						description: 'You may expend your special armor to resist any consequence while tending to a patient. When you doctor someone in combat, clear 1 stress.'
-					},
-										{
-						name: 'Moral Compass',
-						description: 'When you do the right thing at cost to yourself, mark XP (any category).'
+						name: '압박 하에서',
+						description: '자신 또는 동료가 2단계 이상의 피해를 입었을 때 묘수가 추가됩니다.'
 					},
 					{
-						name: 'Dr Strange',
-						description: 'Your research and fields of study are fringe, esoteric and focus on the mystical. You may always handle Precursor artifacts safely. When you study an artifact or doctor a strange substance you may ask one: what could this do? — why could this be dangerous?'
+						name: '도덕적 잣대',
+						description: '개인적인 피해나 손해를 보고도 옳은 일을 하면 xp를 얻습니다 (어느 항목도 가능).'
 					},
 					{
-						name: 'Book Learning',
-						description: 'You speak a multitude of languages and are broadly educated. Gain +1d when using study during a downtime action.'
+						name: '괴과학자',
+						description: '이 캐릭터의 연구 분야는 비주류적이고 기이하며 신비주의적입니다. 선주인 유물을 항상 안전하게 다룰 수 있습니다. 유물을 조사하거나 특이한 물질을 의료로 분석하면 다음 중 한 가지 질문을 할 수 있습니다: 이것은 무엇을 할 수 있는가? — 이것은 어떤 점이 위험할 수 있는가?'
+					},
+					{
+						name: '학식',
+						description: '폭넓은 교육을 받았고, 여러 언어를 할 줄 압니다. 막간 활동에서 조사를 사용할 때 +1d를 받습니다.'
 					}
 				],
 				base: {
-					ability0_name: 'I\'m a Doctor Not a ...',
-					ability0_description: 'You can push yourself to roll your doctor rating while performing a different action. Say which patient, research, or posting taught you this trick.',
-					friend_adjective: 'Old Friends',
+					ability0_name: '나는 의사야, …가 아니라!',
+					ability0_description: '분발을 해서 어떤 행동을 할 때에도 의료 수치로 판정할 수 있습니다. 어느 환자, 연구, 직책에서 이것을 배웠는지 설명하세요.',
+					friend_adjective: '오랜 친구들',
 					doctor: '2',
-					playbook_description: 'spacefaring\nhealer or\nscientist',
+					playbook_description: '우주를 다니는\n의사이자 과학자',
 					study: '1',
-					xp_condition: 'You addressed a tough challenge with insight or compassion.'
+					xp_condition: '난관에 연민이나 통찰력으로 임한 경우.'
 				},
-				friend: ['Jackev, a drug dealer', 'Alben, a former patient', 'Ditha, a family member', 'Juda, a doctor', 'Lynie, a hospital admin'],
+				friend: ['자케브, 약장수', '알벤, 옛 환자', '디타, 가족', '주다, 의사', '라이니, 병원 관리직'],
 				playbookitem: [
 					{
 						bold: '1',
-						name: 'Fine Medkit',
+						name: '고급 의료 키트',
 						numboxes: '2',
 					}, {
 						bold: '1',
-						name: 'Fine Bedside Manner',
+						name: '고급 환자응대술',
 						numboxes: '0',
 					}, {
 						bold: '1',
-						name: 'Fine Clothing',
+						name: '고급 의류',
 					}, {
-						name: 'Recognizeable Medic Garb',
+						name: '눈에 띄는 의료복',
 						numboxes: '0',
 					}, {
-						name: 'Candies and Treats',
+						name: '과자와 사탕',
 					}, {
-						name: 'Syringes and Applicators',
+						name: '주사 및 투약기구',
 						numboxes: '0',
 					},
 				]
@@ -2001,149 +2001,149 @@
 		},
 		factionsData = {
 			factions1: [{
-					name: 'Guild of Engineers',
+					name: '엔지니어 길드',
 					tier: 'V'
 				},
 				{
-					name: 'Church of Stellar Flame',
+					name: '별의 불꽃 교회',
 					tier: 'IV'
 				},
 				{
-					name: 'Counters Guild',
+					name: '금융 길드',
 					tier: 'IV'
 				},
 				{
-					name: 'Starless Veil',
+					name: '별 없는 장막',
 					tier: 'IV'
 				},
 				{
-					name: '51st Legion',
+					name: '제51군단',
 					tier: 'III'
 				},
 				{
-					name: 'House Malklaith',
+					name: '말클레이스 가문',
 					tier: 'III'
 				},
 				{
-					name: 'Isotropa Max Secure',
+					name: '이소트로파 형무소',
 					tier: 'III'
 				},
 				{
-					name: 'Starsmiths Guild',
+					name: '별장인 길드',
 					tier: 'III'
 				},
 				{
-					name: 'Cult of the Seekers',
+					name: '탐구교',
 					tier: 'II'
 				},
 				{
-					name: 'Hegemonic News Network',
+					name: '헤게모니 뉴스 네트워크',
 					tier: 'II'
 				},
 				{
-					name: 'Yaru (Makers Guild)',
+					name: '야루',
 					tier: 'II'
 				},
 				{
-					name: 'Concordiat Knights',
+					name: '협정 기사단',
 					tier: 'I'
 				}
 			],
 			factions2: [{
-					name: 'Lost Legion',
+					name: '미아군단',
 					tier: 'IV'
 				},
 				{
-					name: 'Scarlet Wolves',
+					name: '진홍늑대단',
 					tier: 'IV'
 				},
 				{
-					name: 'Vorex',
+					name: '보렉스',
 					tier: 'IV'
 				},
 				{
-					name: 'Ashen Knives',
+					name: '잿빛단검회',
 					tier: 'III'
 				},
 				{
-					name: 'Borniko Syndicate',
+					name: '보르니코 신디케이트',
 					tier: 'III'
 				},
 				{
-					name: 'Draxler\'s Raiders',
+					name: '드락슬러 강도단',
 					tier: 'III'
 				},
 				{
-					name: 'The Maelstrom',
+					name: '소용돌이단',
 					tier: 'III'
 				},
 				{
-					name: 'Echo Wave Riders',
+					name: '에코 웨이브 라이더즈',
 					tier: 'II'
 				},
 				{
-					name: 'Janus Syndicate',
+					name: '야누스 신디케이트',
 					tier: 'II'
 				},
 				{
-					name: 'Turner Society',
+					name: '터너 사교회',
 					tier: 'II'
 				},
 				{
-					name: 'Cobalt Syndicate',
+					name: '코발트 신디케이트',
 					tier: 'I'
 				},
 				{
-					name: 'Dyrinek Gang',
+					name: '디리넥 패거리',
 					tier: 'I'
 				},
 				{
-					name: 'Wreckers',
+					name: '파괴당',
 					tier: 'I'
 				}
 			],
 			factions3: [{
-					name: 'Sah\'iir',
+					name: '사히르',
 					tier: 'IV'
 				},
 				{
-					name: 'Suneaters',
+					name: '해를 먹는 자들',
 					tier: 'IV'
 				},
 				{
-					name: 'The Agony',
+					name: '고통교',
 					tier: 'III'
 				},
 				{
-					name: 'Ashtari Cult',
+					name: '아슈타리 교단',
 					tier: 'III'
 				},
 				{
-					name: 'Vignerons',
+					name: '포도원',
 					tier: 'III'
 				},
 				{
-					name: 'Ghosts',
+					name: '유령학회',
 					tier: 'II'
 				},
 				{
-					name: 'Mendicants',
+					name: '탁발회',
 					tier: 'II'
 				},
 				{
-					name: 'Nightspeakers',
+					name: '밤의 입들',
 					tier: 'II'
 				},
 				{
-					name: 'Acolytes of Brashkadesh',
+					name: '브라시카데시의 사도들',
 					tier: 'I'
 				},
 				{
-					name: 'Conclave 01',
+					name: '01 회의',
 					tier: 'I'
 				},
 				{
-					name: 'Vigilance',
+					name: '파수회',
 					tier: 'I'
 				}
 			]
