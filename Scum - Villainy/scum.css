@@ -543,7 +543,7 @@ textarea.sheet-label {
 
 /* LOGO */
 .sheet-scumlogo {
-	height: 92px;
+	height: 50px;
 	background-image: url("https://raw.githubusercontent.com/wrrho/roll20-character-sheets/ScumAndVillanyKRTranslate/Scum%20-%20Villainy/Assets/logo.png");
 	background-size: 95% auto;
 	background-repeat: no-repeat;
